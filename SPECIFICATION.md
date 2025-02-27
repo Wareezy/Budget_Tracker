@@ -16,7 +16,24 @@ Managing personal finances can be overwhelming, especially for individuals who s
 
 This system will **simplify personal finance management**, making it more accessible for users who prefer **manual entry** and a **straightforward experience**.  
 
-## 🎯 Individual Scope & Feasibility  
+---
+
+## 🎯 **Scope**  
+### 🔹 **What’s Included?**  
+- ✅ Users can **log** income and expenses **manually**.  
+- ✅ Users can **categorize transactions** (e.g., "Food", "Rent").  
+- ✅ Users can **track their financial balance** in real-time.  
+- ✅ Users can view **simple spending summaries** to aid financial planning.  
+- ✅ Basic **email notifications** for budget summaries.  
+
+### 🔹 **What’s NOT Included?**  
+- ❌ **Bank Account Integration** – No automatic transaction fetching.  
+- ❌ **Investment & Loan Tracking** – Focuses only on **daily expenses and income**.  
+- ❌ **AI-based Analysis** – No automated financial suggestions.  
+
+---
+
+## 🎯 **Feasibility Analysis**  
 ### ✅ **Why is this project feasible?**  
 1. **Minimal Features, Maximum Impact** – The system will only include essential features, reducing complexity and development effort.  
 2. **No External Integrations Required** – Unlike banking apps, this tracker will not require complex API integrations, making implementation easier.  
@@ -26,4 +43,13 @@ This system will **simplify personal finance management**, making it more access
 
 ---
 
-With this well-defined scope, the **Minimalist Budget Tracker** ensures a **practical, achievable**, and **impactful** solution to simplify **budget management**.  
+## ⚠️ **Potential Risks & How to Overcome Them**  
+| **Risk** | **Mitigation Strategy** |
+|----------|-------------------------|
+| **User Adoption** – Some users may still prefer bank-linked apps. | Highlight **simplicity & control** as key advantages over complex apps. |
+| **Data Storage & Security** – Users will store personal finance data. | Use **secure authentication (JWT), database encryption, and HTTPS**. |
+| **Scalability** – The system may need to support **many users** in the future. | Start with a **serverless or lightweight backend (Firebase, AWS Lambda)** for easy scaling. |
+
+---
+
+✅ With this well-defined scope, the **Minimalist Budget Tracker** ensures a **practical, achievable**, and **impactful** solution to simplify **budget management**.
