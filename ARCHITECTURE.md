@@ -47,3 +47,24 @@ C4Context
   Rel(notificationService, extEmailService, "Sends emails via")
 
 ```
+
+
+```mermaid
+
+C4Component
+  title Component Diagram for Web Application Component in Minimalist Budget Tracker
+
+  Container(webApp, "Web Application", "React", "Allows users to log and track finances")
+
+  Component(interface, "User Interface", "React Components", "Presents data and interacts with users")
+  Component(transactionsHandler, "Transactions Handler", "JavaScript", "Processes transaction entry and updates")
+  Component(apiClient, "API Client", "Axios", "Handles communication with services")
+
+  ContainerDb(database, "Database", "MySQL", "Stores user and transaction data")
+
+  Rel(interface, transactionsHandler, "Submits transaction data")
+  Rel(transactionsHandler, apiClient, "Sends API requests")
+  Rel(apiClient, database, "Fetches and updates data")
+
+```
+
