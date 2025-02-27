@@ -18,9 +18,12 @@ C4Context
     
     System_Ext(emailService, "Email Notification Service", "Sends budget summaries to users.")
     
-    Rel_D(user, budgetTracker, "Logs income, expenses,\nand tracks balance manually")
-    Rel_D(budgetTracker, emailService, "Sends budget-related\nemail notifications")
+    Rel_D(user, budgetTracker, "Logs income, expenses,\ntracks balance manually")
+    Rel_D(budgetTracker, emailService, "Sends budget-related email notifications")
   }
+
+  UpdateLayoutConfig($c4ShapeInRow="1", $c4BoundaryInRow="1")
+
 
 
 
