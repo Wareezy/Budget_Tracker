@@ -17,9 +17,10 @@ C4Context
     
     System_Ext(emailService, "Email Notification Service", "Sends budget summaries to users.")
     
-    Rel(user, budgetTracker, "Uses to log income, expenses, and track balance manually")
-    Rel(budgetTracker, emailService, "Sends budget-related email notifications")
+    Rel_L(user, budgetTracker, "Logs income, expenses,\nand tracks balance manually")
+    Rel_R(budgetTracker, emailService, "Sends budget-related\nemail notifications")
   }
+
 
 ```
 
