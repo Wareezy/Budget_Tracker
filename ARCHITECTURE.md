@@ -90,8 +90,7 @@ C4Deployment
   Rel(notificationService, emailService, "Sends emails via")
   Rel(webApp, database, "Sends/receives data from")
 
-  
-Each of these diagrams provides a different perspective, ensuring that developers, architects, and stakeholders can understand the system’s **design, interactions, and dependencies** at various levels. 
-
 ```
+
+Each of these diagrams provides a different perspective, ensuring that developers, architects, and stakeholders can understand the system’s **design, interactions, and dependencies** at various levels. 
 
