@@ -22,3 +22,28 @@ C4Context
   }
 
 ```
+
+
+**📦 Container Diagram** – Breaks down the system into frontend, backend, and database components.
+
+```mermaid
+
+   C4Container
+  title Container Diagram for Minimalist Budget Tracker
+
+  Person(user, "User", "Uses the application to track personal finances")
+
+  Container_Boundary(systemBoundary, "Minimalist Budget Tracker") {
+    Container(webApp, "Web Application", "React", "Allows users to log and track finances")
+    ContainerDb(database, "Database", "MySQL", "Stores user and transaction data")
+    Container(notificationService, "Notification Service", "Node.js", "Processes and sends email notifications")
+  }
+
+  System_Ext(extEmailService, "Email Service", "SMTP", "External service for sending emails")
+  
+  Rel(user, webApp, "Logs transactions")
+  Rel(webApp, database, "Reads/Writes user data and transactions")
+  Rel(webApp, notificationService, "Triggers email notifications")
+  Rel(notificationService, extEmailService, "Sends emails via")
+
+```
