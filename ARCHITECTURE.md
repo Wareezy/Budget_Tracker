@@ -48,6 +48,7 @@ C4Context
 
 ```
 
+**🧩 Component Diagram** – Explores the internal structure of key application modules.
 
 ```mermaid
 
