@@ -33,7 +33,7 @@ This system will **simplify personal finance management**, making it more access
 
 ---
 
-## 🎯 **Feasibility Analysis**  
+## 🎯 **Feasibility**  
 ### ✅ **Why is this project feasible?**  
 1. **Minimal Features, Maximum Impact** – The system will only include essential features, reducing complexity and development effort.  
 2. **No External Integrations Required** – Unlike banking apps, this tracker will not require complex API integrations, making implementation easier.  
