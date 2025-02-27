@@ -69,3 +69,29 @@ C4Component
 
 ```
 
+**🖥️ Deployment Diagram** – Represents how the system is deployed across different environments and devices.
+
+```mermaid
+C4Deployment
+  title Deployment Diagram for Minimalist Budget Tracker
+
+  Deployment_Node(laptop, "User's Laptop", "Any") {
+      Container(webApp, "Web Application", "React SPA", "Allows users to interact with the system")
+  }
+  
+  Deployment_Node(server, "Cloud Server", "AWS EC2/ Firebase") {
+    Container(database, "Database", "MySQL", "Stores user and transaction data")
+    Container(notificationService, "Notification Service", "Node.js", "Handles email notifications")
+  }
+
+  System_Ext(emailService, "Email Service", "SMTP", "External SMTP service to send email")
+
+  Rel(webApp, notificationService, "Sends notification requests")
+  Rel(notificationService, emailService, "Sends emails via")
+  Rel(webApp, database, "Sends/receives data from")
+
+  
+Each of these diagrams provides a different perspective, ensuring that developers, architects, and stakeholders can understand the system’s **design, interactions, and dependencies** at various levels. 
+
+```
+
