@@ -13,13 +13,15 @@ C4Context
   title System Context Diagram for Minimalist Budget Tracker
   Enterprise_Boundary(fintechDomain, "Personal Finance Management") {
     Person(user, "User", "An individual who manages their budget manually.")
+    
     System(budgetTracker, "Minimalist Budget Tracker", "A simple, web-based tool for manual finance tracking.")
     
     System_Ext(emailService, "Email Notification Service", "Sends budget summaries to users.")
     
-    Rel_L(user, budgetTracker, "Logs income, expenses,\nand tracks balance manually")
-    Rel_R(budgetTracker, emailService, "Sends budget-related\nemail notifications")
+    Rel_D(user, budgetTracker, "Logs income, expenses,\nand tracks balance manually")
+    Rel_D(budgetTracker, emailService, "Sends budget-related\nemail notifications")
   }
+
 
 
 ```
