@@ -123,6 +123,9 @@ Identifying key stakeholders is essential for the success of the Minimalist Budg
   - 😊 Achieving a 95% user satisfaction rate with support interactions.
 
 
+
+
+
 # 📋 Functional Requirements
 
 The **Minimalist Budget Tracker** is designed to simplify personal finance management while addressing key stakeholder concerns. Below are **10+ functional requirements**, each with clear **acceptance criteria** to ensure system functionality meets expectations.
@@ -237,6 +240,8 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 
 ### 🎯 **Conclusion**
 These functional requirements ensure the **Minimalist Budget Tracker** delivers a user-friendly, secure, and efficient way for individuals to manage their finances. The system focuses on **manual budget tracking**, while avoiding unnecessary complexity. 🚀
+
+
 
 
 
