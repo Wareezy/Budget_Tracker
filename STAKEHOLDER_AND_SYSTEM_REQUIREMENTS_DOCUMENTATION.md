@@ -232,30 +232,7 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 - **Acceptance Criteria:**  
   ✅ Changes to settings take **immediate effect**.  
   ✅ Users can toggle settings in a **dedicated preferences section**.  
-
----
-
-## 1️⃣1️⃣ 📥 **Data Import & Export**
-- **Requirement:**  
-  ➜ The system shall allow users to **import transactions from external files (CSV, Excel)** and export data for backup or external analysis.  
-
-- **Acceptance Criteria:**  
-  ✅ Users can **upload CSV files**, and transactions are correctly mapped to categories.  
-  ✅ Users can **export financial data** in CSV/PDF format for external use.  
-
----
-
-## 1️⃣2️⃣ 🛠️ **User Assistance & Support**
-- **Requirement:**  
-  ➜ The system shall provide **help resources**, including:
-  - Interactive **tutorials** 🏫
-  - FAQs ❓
-  - Customer **support request system** 🆘
-
-- **Acceptance Criteria:**  
-  ✅ Users can access a **Help Center** via the app.  
-  ✅ Support queries receive **responses within 24 hours**.  
-
+  
 ---
 
 ### 🎯 **Conclusion**
