@@ -34,18 +34,36 @@ Below are 10+ functional requirements addressing stakeholder concerns.
 ---
 
 ## 📌 3. Non-Functional Requirements  
-The table below categorizes essential non-functional requirements for the system.
+Below are the **quality attributes** ensuring system usability, security, performance, and scalability.
 
-| **Category**        | **Requirement** |
-|---------------------|----------------|
-| 🎨 **Usability**    | The system shall comply with **WCAG 2.1 accessibility standards**. |
-| 🎨 **Usability**    | The UI shall be **mobile-responsive** across all devices. |
-| 🚀 **Deployability** | The system shall be deployable on **AWS, Firebase, and Linux servers**. |
-| 🔄 **Maintainability** | The system shall provide **modular development** for easy updates. |
-| 🔄 **Maintainability** | The system shall store **error logs for debugging** for 90 days. |
-| 📈 **Scalability**   | The system shall support **10,000 users and 1,000 concurrent users**. |
-| 🔐 **Security**     | All sensitive data shall be **encrypted using AES-256**. |
-| ⚡ **Performance**   | The system shall respond to transactions within **2 seconds**. |
+| **#** | **Category**       | **Requirement** |
+|------|-----------------|------------------------------------------------------------|
+| 1️⃣  | 🎨 **Usability**    | The system shall comply with **WCAG 2.1 accessibility standards** to ensure inclusivity for users with disabilities. |
+|      |                 | ✅ Users must be able to **navigate using screen readers and keyboard shortcuts**. |
+|      |                 | ✅ The interface must have **sufficient color contrast and scalable fonts**. |
+| 2️⃣  | 🎨 **Usability**    | The UI shall be **mobile-responsive**, adjusting to different screen sizes. |
+|      |                 | ✅ The user interface must be **fully functional on mobile, tablet, and desktop devices**. |
+| 3️⃣  | 🚀 **Deployability** | The system shall be deployable on **AWS, Firebase, and self-hosted Linux servers** for flexibility. |
+|      |                 | ✅ The deployment process must be **automated using CI/CD pipelines**. |
+|      |                 | ✅ The system must be accessible via **modern web browsers (Chrome, Firefox, Edge, Safari)**. |
+| 4️⃣  | 🔄 **Maintainability** | The system shall follow **modular development principles** to facilitate updates and debugging. |
+|      |                 | ✅ Developers must document **API endpoints, database schemas, and key functions**. |
+|      |                 | ✅ A **README file and technical documentation** shall be included for onboarding new developers. |
+| 5️⃣  | 🔄 **Maintainability** | The system shall provide **logging and monitoring tools** for tracking system health and errors. |
+|      |                 | ✅ Error logs must be stored for at least **90 days** and accessible for debugging. |
+| 6️⃣  | 📈 **Scalability**   | The system shall support **up to 10,000 users** with a peak load of **1,000 concurrent users** without performance degradation. |
+|      |                 | ✅ Database must be **optimized with indexing and caching mechanisms**. |
+|      |                 | ✅ Load balancing must distribute requests efficiently across multiple servers. |
+| 7️⃣  | 🔐 **Security**     | All user data shall be **encrypted using AES-256** and transmitted via **HTTPS (TLS 1.2+)**. |
+|      |                 | ✅ Passwords must be **hashed using bcrypt with a minimum cost factor of 12**. |
+|      |                 | ✅ All API endpoints must be **protected using JWT-based authentication**. |
+| 8️⃣  | ⚡ **Performance**   | The system shall respond to user actions within **2 seconds** for common operations like adding a transaction. |
+|      |                 | ✅ Database queries must execute within **500ms** to optimize speed. |
+|      |                 | ✅ Page loads shall complete within **3 seconds on average** on a **3G connection**. |
+
+---
+
+
 
 ---
 
