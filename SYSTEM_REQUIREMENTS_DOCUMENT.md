@@ -49,11 +49,3 @@ The table below categorizes essential non-functional requirements for the system
 
 ---
 
-## 📌 4. Clarity and Traceability
-- Each requirement is **specific, actionable, and traceable** to a stakeholder concern.
-- The **Functional Requirements (FR-XX)** are numbered for easy reference.
-- The **Non-Functional Requirements** align with **quality attributes** to ensure the system's robustness.
-- The system adheres to **accessibility, security, performance, and scalability** best practices.
-
-📌 **Conclusion:** This SRD ensures a clear, structured approach to building the **Minimalist Budget Tracker**, providing a well-defined **stakeholder-driven system** with measurable, maintainable, and scalable features. 🚀
-
