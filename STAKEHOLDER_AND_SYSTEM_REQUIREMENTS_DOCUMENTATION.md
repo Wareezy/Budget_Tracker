@@ -131,11 +131,11 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 
 ## 1️⃣ 📝 **Transaction Logging**
 - **Requirement:**  
-  ➜ The system shall allow users to manually log income and expense transactions by entering details such as **amount, date, description, and category**.
+  ➜ The system shall allow users to manually log income and expense transactions by entering details such as **amount, date, and description**.
   
 - **Acceptance Criteria:**  
-  ✅ Users can **add, edit, and delete** transactions without data loss.  
-  ✅ The system accurately updates the **transaction history** and recalculates the balance upon any modification.  
+  ✅ Users can **add, edit, and delete** transactions.  
+  ✅ The system accurately updates the transaction list upon entry.  
 
 ---
 
@@ -145,8 +145,7 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 
 - **Acceptance Criteria:**  
   ✅ Users can **select predefined categories** or **create custom ones**.  
-  ✅ Transactions are correctly assigned to categories and included in category-specific reports.  
-  ✅ Users can filter transactions by category when generating financial reports.  
+  ✅ Transactions are correctly assigned to categories and reflect in financial reports.  
 
 ---
 
@@ -156,8 +155,7 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 
 - **Acceptance Criteria:**  
   ✅ Every time a transaction is **added, edited, or deleted**, the balance updates instantly.  
-  ✅ The updated balance is correctly reflected across **all linked devices** and displayed on the dashboard.  
-  ✅ Users can view **historical balance changes** over time.  
+  ✅ The updated balance is correctly reflected across **all linked devices**.  
 
 ---
 
@@ -168,7 +166,6 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 - **Acceptance Criteria:**  
   ✅ Users can define **budget limits** per category.  
   ✅ The system provides **visual indicators** (e.g., color-coded warnings) when a budget threshold is exceeded.  
-  ✅ Users can generate reports to compare **budgeted vs. actual spending** over a specified period.  
 
 ---
 
@@ -177,9 +174,8 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
   ➜ The system shall support **automatically scheduled transactions** for recurring income or expenses (e.g., rent, salary).  
 
 - **Acceptance Criteria:**  
-  ✅ Users can specify **recurrence frequency** (e.g., daily, weekly, monthly, yearly).  
-  ✅ The system **automatically logs transactions** at the defined interval and notifies the user upon execution.  
-  ✅ Users can **pause, modify, or delete** recurring transactions.  
+  ✅ Users can specify **recurrence frequency** (e.g., daily, weekly, monthly).  
+  ✅ The system **automatically logs transactions** at the defined interval.  
 
 ---
 
@@ -193,7 +189,6 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 - **Acceptance Criteria:**  
   ✅ Users receive **email notifications** or in-app alerts when key financial events occur.  
   ✅ Users can **enable/disable specific notifications** in settings.  
-  ✅ Notifications shall be **sent at user-defined intervals** (e.g., daily, weekly, monthly).  
 
 ---
 
@@ -203,8 +198,7 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 
 - **Acceptance Criteria:**  
   ✅ Users can view **weekly, monthly, and yearly reports** with charts and graphs.  
-  ✅ Users can **export reports** as **PDF or CSV files** for record-keeping.  
-  ✅ Users can filter reports by **date range, category, and transaction type**.  
+  ✅ Users can **export reports** as **PDF or CSV files**.  
 
 ---
 
@@ -214,8 +208,7 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 
 - **Acceptance Criteria:**  
   ✅ Users must **log in securely** using **email/password** or **OAuth authentication**.  
-  ✅ All financial data is **encrypted using AES-256** before being stored in the database.  
-  ✅ Sensitive user data shall never be stored in plain text.  
+  ✅ All financial data is **encrypted** before being stored in the database.  
 
 ---
 
@@ -226,7 +219,6 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 - **Acceptance Criteria:**  
   ✅ Users can log in from different devices and access **real-time updated data**.  
   ✅ Synchronization must happen within **5 seconds** after adding a transaction.  
-  ✅ Changes made on one device shall be reflected instantly on all linked devices.  
 
 ---
 
@@ -240,9 +232,68 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 - **Acceptance Criteria:**  
   ✅ Changes to settings take **immediate effect**.  
   ✅ Users can toggle settings in a **dedicated preferences section**.  
-  ✅ The system shall store user preferences and apply them automatically on all linked devices.  
-
+  
 ---
 
 ### 🎯 **Conclusion**
 These functional requirements ensure the **Minimalist Budget Tracker** delivers a user-friendly, secure, and efficient way for individuals to manage their finances. The system focuses on **manual budget tracking**, while avoiding unnecessary complexity. 🚀
+
+
+
+
+# 🔧 Non-Functional Requirements
+
+The **Minimalist Budget Tracker** must meet essential **quality attributes** to ensure usability, security, performance, and scalability. Below are **8+ non-functional requirements** categorized into the six specified quality attributes.
+
+---
+
+## 🎨 **Usability**
+1️⃣ **The system shall comply with WCAG 2.1 accessibility standards** to ensure inclusivity for users with disabilities.  
+   ✅ Users must be able to **navigate using screen readers and keyboard shortcuts**.  
+   ✅ The interface must have **sufficient color contrast and scalable fonts**.  
+
+2️⃣ **The system shall provide a mobile-friendly, responsive design** that adjusts to different screen sizes.  
+   ✅ The user interface must be **fully functional on mobile, tablet, and desktop devices**.  
+
+---
+
+## 🚀 **Deployability**
+3️⃣ **The system shall be deployable on AWS, Firebase, and self-hosted Linux servers** for flexibility.  
+   ✅ The deployment process must be **automated using CI/CD pipelines**.  
+   ✅ The system must be accessible via **modern web browsers (Chrome, Firefox, Edge, Safari)**.  
+
+---
+
+## 🔄 **Maintainability**
+4️⃣ **The system shall follow modular development principles** to facilitate updates and debugging.  
+   ✅ Developers must document **API endpoints, database schemas, and key functions**.  
+   ✅ A **README file and technical documentation** shall be included for onboarding new developers.  
+
+5️⃣ **The system shall provide logging and monitoring tools** for tracking system health and errors.  
+   ✅ Error logs must be stored for at least **90 days** and accessible for debugging.  
+
+---
+
+## 📈 **Scalability**
+6️⃣ **The system shall support up to 10,000 users** with a peak load of **1,000 concurrent users** without performance degradation.  
+   ✅ Database must be **optimized with indexing and caching mechanisms**.  
+   ✅ Load balancing must distribute requests efficiently across multiple servers.  
+
+---
+
+## 🔐 **Security**
+7️⃣ **All user data shall be encrypted using AES-256** and transmitted via **HTTPS (TLS 1.2+)**.  
+   ✅ Passwords must be **hashed using bcrypt with a minimum cost factor of 12**.  
+   ✅ All API endpoints must be **protected using JWT-based authentication**.  
+
+---
+
+## ⚡ **Performance**
+8️⃣ **The system shall respond to user actions within 2 seconds** for common operations like adding a transaction.  
+   ✅ Database queries must execute within **500ms** to optimize speed.  
+   ✅ Page loads shall complete within **3 seconds on average** on a **3G connection**.  
+
+---
+
+### 🎯 **Conclusion**
+These **non-functional requirements** ensure that the **Minimalist Budget Tracker** remains **secure, scalable, and performant** while delivering an **accessible and reliable** experience for users. 🚀
