@@ -237,3 +237,63 @@ The **Minimalist Budget Tracker** is designed to simplify personal finance manag
 
 ### 🎯 **Conclusion**
 These functional requirements ensure the **Minimalist Budget Tracker** delivers a user-friendly, secure, and efficient way for individuals to manage their finances. The system focuses on **manual budget tracking**, while avoiding unnecessary complexity. 🚀
+
+
+
+
+# 🔧 Non-Functional Requirements
+
+The **Minimalist Budget Tracker** must meet essential **quality attributes** to ensure usability, security, performance, and scalability. Below are **8+ non-functional requirements** categorized into the six specified quality attributes.
+
+---
+
+## 🎨 **Usability**
+1️⃣ **The system shall comply with WCAG 2.1 accessibility standards** to ensure inclusivity for users with disabilities.  
+   ✅ Users must be able to **navigate using screen readers and keyboard shortcuts**.  
+   ✅ The interface must have **sufficient color contrast and scalable fonts**.  
+
+2️⃣ **The system shall provide a mobile-friendly, responsive design** that adjusts to different screen sizes.  
+   ✅ The user interface must be **fully functional on mobile, tablet, and desktop devices**.  
+
+---
+
+## 🚀 **Deployability**
+3️⃣ **The system shall be deployable on AWS, Firebase, and self-hosted Linux servers** for flexibility.  
+   ✅ The deployment process must be **automated using CI/CD pipelines**.  
+   ✅ The system must be accessible via **modern web browsers (Chrome, Firefox, Edge, Safari)**.  
+
+---
+
+## 🔄 **Maintainability**
+4️⃣ **The system shall follow modular development principles** to facilitate updates and debugging.  
+   ✅ Developers must document **API endpoints, database schemas, and key functions**.  
+   ✅ A **README file and technical documentation** shall be included for onboarding new developers.  
+
+5️⃣ **The system shall provide logging and monitoring tools** for tracking system health and errors.  
+   ✅ Error logs must be stored for at least **90 days** and accessible for debugging.  
+
+---
+
+## 📈 **Scalability**
+6️⃣ **The system shall support up to 10,000 users** with a peak load of **1,000 concurrent users** without performance degradation.  
+   ✅ Database must be **optimized with indexing and caching mechanisms**.  
+   ✅ Load balancing must distribute requests efficiently across multiple servers.  
+
+---
+
+## 🔐 **Security**
+7️⃣ **All user data shall be encrypted using AES-256** and transmitted via **HTTPS (TLS 1.2+)**.  
+   ✅ Passwords must be **hashed using bcrypt with a minimum cost factor of 12**.  
+   ✅ All API endpoints must be **protected using JWT-based authentication**.  
+
+---
+
+## ⚡ **Performance**
+8️⃣ **The system shall respond to user actions within 2 seconds** for common operations like adding a transaction.  
+   ✅ Database queries must execute within **500ms** to optimize speed.  
+   ✅ Page loads shall complete within **3 seconds on average** on a **3G connection**.  
+
+---
+
+### 🎯 **Conclusion**
+These **non-functional requirements** ensure that the **Minimalist Budget Tracker** remains **secure, scalable, and performant** while delivering an **accessible and reliable** experience for users. 🚀
