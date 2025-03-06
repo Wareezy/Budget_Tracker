@@ -15,21 +15,22 @@ The table below outlines key stakeholders, their roles, key concerns, pain point
 
 ---
 
-## 📌 2. Functional Requirements
-Below are 10+ functional requirements addressing stakeholder concerns.
+## 📌 2. Functional Requirements  
+The table below lists the **key system functions** along with their **acceptance criteria**.
 
-| **ID** | **Requirement** | **Acceptance Criteria** |
-|--------|---------------|------------------------|
-| FR-01  | Users shall be able to log income and expenses manually. | Transactions appear in the log and balance updates instantly. |
-| FR-02  | Users shall categorize transactions (e.g., Food, Rent). | Transactions are organized correctly by category. |
-| FR-03  | The system shall calculate and update the user’s balance in real-time. | The balance reflects every transaction change instantly. |
-| FR-04  | Users shall set and track monthly budgets. | The system provides visual alerts when limits are exceeded. |
-| FR-05  | The system shall support recurring transactions. | Users can configure and manage recurring payments. |
-| FR-06  | The system shall provide email and in-app notifications. | Alerts trigger for due bills, budget warnings, and summaries. |
-| FR-07  | Users shall generate reports on financial activities. | Reports include graphs, tables, and export options. |
-| FR-08  | The system shall ensure secure authentication and encryption. | User data is stored securely and accessed only via authentication. |
-| FR-09  | The system shall sync data across multiple devices. | Transactions update instantly across devices. |
-| FR-10  | Users shall be able to customize settings. | Settings updates apply immediately and persist across sessions. |
+| **ID**   | **Requirement**                                               | **Acceptance Criteria** |
+|---------|---------------------------------------------------------------|------------------------|
+| FR-01   | Users shall be able to log income and expenses manually.       | Users can add, edit, and delete transactions, and updates reflect in real-time. |
+| FR-02   | Users shall categorize transactions (e.g., Food, Rent, Utilities). | Users can select from predefined categories or create custom ones, and transactions are correctly grouped. |
+| FR-03   | The system shall calculate and update the financial balance in real-time. | Balance updates immediately after a transaction is logged, edited, or deleted. |
+| FR-04   | Users shall set and track monthly budgets.                     | Users can define budgets per category, and visual alerts notify them of overspending. |
+| FR-05   | The system shall support recurring transactions.               | Users can configure recurring payments, and the system automatically logs them based on the defined schedule. |
+| FR-06   | The system shall provide alerts and notifications.             | Users receive email or in-app alerts for bill payments, budget warnings, and periodic summaries. |
+| FR-07   | Users shall generate reports summarizing financial activity.   | Reports display spending trends using graphs/tables and can be exported as PDF or CSV. |
+| FR-08   | The system shall ensure secure authentication and encryption.  | Users log in using email/password or OAuth, and all financial data is encrypted before storage. |
+| FR-09   | The system shall sync data across multiple devices.            | Transactions update in real-time across devices, with a max delay of 5 seconds. |
+| FR-10   | Users shall be able to customize app settings.                 | Users can change currency format, enable dark/light mode, and set notification preferences. |
+
 
 ---
 
