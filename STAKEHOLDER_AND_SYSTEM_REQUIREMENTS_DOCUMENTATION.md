@@ -121,3 +121,142 @@ Identifying key stakeholders is essential for the success of the Minimalist Budg
   - ⏳ Reducing average response time to support inquiries by 60%.
   - 📉 Decreasing the number of recurring issues reported by users by 40%.
   - 😊 Achieving a 95% user satisfaction rate with support interactions.
+
+
+# 📋 Functional Requirements
+
+The **Minimalist Budget Tracker** is designed to simplify personal finance management while addressing key stakeholder concerns. Below are **10+ functional requirements**, each with clear **acceptance criteria** to ensure system functionality meets expectations.
+
+---
+
+## 1️⃣ 📝 **Transaction Logging**
+- **Requirement:**  
+  ➜ The system shall allow users to manually log income and expense transactions by entering details such as **amount, date, and description**.
+  
+- **Acceptance Criteria:**  
+  ✅ Users can **add, edit, and delete** transactions.  
+  ✅ The system accurately updates the transaction list upon entry.  
+
+---
+
+## 2️⃣ 🗂️ **Categorization of Transactions**
+- **Requirement:**  
+  ➜ The system shall allow users to categorize transactions (e.g., **"Food," "Rent," "Utilities"**).
+
+- **Acceptance Criteria:**  
+  ✅ Users can **select predefined categories** or **create custom ones**.  
+  ✅ Transactions are correctly assigned to categories and reflect in financial reports.  
+
+---
+
+## 3️⃣ 💰 **Real-Time Balance Calculation**
+- **Requirement:**  
+  ➜ The system shall update the user’s **financial balance in real-time** based on logged transactions.  
+
+- **Acceptance Criteria:**  
+  ✅ Every time a transaction is **added, edited, or deleted**, the balance updates instantly.  
+  ✅ The updated balance is correctly reflected across **all linked devices**.  
+
+---
+
+## 4️⃣ 📊 **Budget Creation & Monitoring**
+- **Requirement:**  
+  ➜ The system shall allow users to **set monthly budgets** for different expense categories and track spending against these limits.  
+
+- **Acceptance Criteria:**  
+  ✅ Users can define **budget limits** per category.  
+  ✅ The system provides **visual indicators** (e.g., color-coded warnings) when a budget threshold is exceeded.  
+
+---
+
+## 5️⃣ 📅 **Recurring Transactions**
+- **Requirement:**  
+  ➜ The system shall support **automatically scheduled transactions** for recurring income or expenses (e.g., rent, salary).  
+
+- **Acceptance Criteria:**  
+  ✅ Users can specify **recurrence frequency** (e.g., daily, weekly, monthly).  
+  ✅ The system **automatically logs transactions** at the defined interval.  
+
+---
+
+## 6️⃣ 🔔 **Alerts & Notifications**
+- **Requirement:**  
+  ➜ The system shall send **notifications** for:
+  - **Upcoming bill payments**
+  - **Budget limit warnings**
+  - **Periodic spending summaries**
+
+- **Acceptance Criteria:**  
+  ✅ Users receive **email notifications** or in-app alerts when key financial events occur.  
+  ✅ Users can **enable/disable specific notifications** in settings.  
+
+---
+
+## 7️⃣ 📈 **Financial Reports & Summaries**
+- **Requirement:**  
+  ➜ The system shall generate **financial reports** summarizing income, expenses, and budget adherence.  
+
+- **Acceptance Criteria:**  
+  ✅ Users can view **weekly, monthly, and yearly reports** with charts and graphs.  
+  ✅ Users can **export reports** as **PDF or CSV files**.  
+
+---
+
+## 8️⃣ 🔒 **Data Security & Privacy**
+- **Requirement:**  
+  ➜ The system shall ensure **secure authentication** and **data encryption** to protect financial information.  
+
+- **Acceptance Criteria:**  
+  ✅ Users must **log in securely** using **email/password** or **OAuth authentication**.  
+  ✅ All financial data is **encrypted** before being stored in the database.  
+
+---
+
+## 9️⃣ 🌍 **Multi-Device Synchronization**
+- **Requirement:**  
+  ➜ The system shall **sync user data across multiple devices** for seamless access.  
+
+- **Acceptance Criteria:**  
+  ✅ Users can log in from different devices and access **real-time updated data**.  
+  ✅ Synchronization must happen within **5 seconds** after adding a transaction.  
+
+---
+
+## 🔟 ⚙️ **User Preferences & Customization**
+- **Requirement:**  
+  ➜ The system shall allow users to **customize settings**, such as:
+  - Preferred **currency format** 💵
+  - **Dark mode** 🌙 or **Light mode** ☀️
+  - **Notification preferences** 🔔
+
+- **Acceptance Criteria:**  
+  ✅ Changes to settings take **immediate effect**.  
+  ✅ Users can toggle settings in a **dedicated preferences section**.  
+
+---
+
+## 1️⃣1️⃣ 📥 **Data Import & Export**
+- **Requirement:**  
+  ➜ The system shall allow users to **import transactions from external files (CSV, Excel)** and export data for backup or external analysis.  
+
+- **Acceptance Criteria:**  
+  ✅ Users can **upload CSV files**, and transactions are correctly mapped to categories.  
+  ✅ Users can **export financial data** in CSV/PDF format for external use.  
+
+---
+
+## 1️⃣2️⃣ 🛠️ **User Assistance & Support**
+- **Requirement:**  
+  ➜ The system shall provide **help resources**, including:
+  - Interactive **tutorials** 🏫
+  - FAQs ❓
+  - Customer **support request system** 🆘
+
+- **Acceptance Criteria:**  
+  ✅ Users can access a **Help Center** via the app.  
+  ✅ Support queries receive **responses within 24 hours**.  
+
+---
+
+### 🎯 **Conclusion**
+These functional requirements ensure the **Minimalist Budget Tracker** delivers a user-friendly, secure, and efficient way for individuals to manage their finances. The system focuses on **manual budget tracking**, while avoiding unnecessary complexity. 🚀
