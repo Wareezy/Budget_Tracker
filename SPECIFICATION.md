@@ -1,4 +1,4 @@
-# 📄 SPECIFICATION.md  
+# 📄 SPECIFICATION
 
 ## 📌 Project Title  
 **Budget Tracker**  
