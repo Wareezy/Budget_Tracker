@@ -24,6 +24,3 @@ Below is a test case table with **8 test cases** that validate **functional requ
 ✅ Attempt a **brute-force attack** on user authentication by entering **multiple incorrect passwords**. Verify that the system **locks the account after five failed attempts** and requires **admin intervention** to reset.  
 
 ---
-
-### **📌 Summary**  
-This **test suite ensures** that the Minimalist Budget Tracker meets **both functional and non-functional expectations**, validating **transaction logging, categorization, reports, security, and performance**. 🚀  
