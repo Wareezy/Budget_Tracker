@@ -239,77 +239,21 @@ Below is a test case table with **8 test cases** that validate **functional requ
 <br>
 <br>
 
-# 🎯 **Reflection: Challenges in Translating Requirements to Use Cases and Tests**
+# 🎯 **Reflection: Challenges in Translating Requirements to Use Cases and Tests**  
 
-Developing the **Budget Tracker** required transforming high-level requirements into **detailed use cases and structured test cases**. While this process was essential for ensuring system functionality and user experience, several challenges emerged when mapping these requirements into well-defined use cases and corresponding test scenarios.  
+Developing the **Budget Tracker** required me to transform high-level requirements into **detailed use cases and structured test cases**. While this process was essential for ensuring that the system functioned correctly and provided a seamless user experience, I encountered several challenges when translating these requirements into well-defined use cases and corresponding test scenarios.  
 
----
+One of the first challenges was defining **clear and precise use cases** while ensuring that all necessary features were accounted for. The Budget Tracker serves multiple stakeholders, including **users, administrators, financial advisors, compliance officers, marketing teams, and customer support representatives**. Each of these actors interacts with the system in a unique way, requiring distinct use cases. The challenge was to ensure that these interactions were accurately captured **without unnecessary overlap or redundancy**. For instance, both **Administrators and Compliance Officers** handle **user authentication**, but their roles differ significantly. Clearly defining these distinctions was more difficult than expected, as some tasks seemed to naturally overlap. Ensuring that each role had a well-defined scope helped maintain clarity and avoid unnecessary repetition in the documentation.  
 
-## 🔍 **1. Identifying Clear and Precise Use Cases**  
-One of the first challenges was **defining clear boundaries for each use case** while ensuring that all necessary features were covered. The Budget Tracker serves multiple stakeholders, including:  
-👤 **Users** (Managing their finances)  
-🛠 **Administrators** (Handling authentication & security)  
-📊 **Financial Advisors** (Reviewing reports)  
-🛡 **Compliance Officers** (Ensuring data security)  
-📢 **Marketing Teams** (Analyzing engagement)  
-🎧 **Customer Support Representatives** (Providing assistance)  
+Another major challenge was handling **dependencies between different use cases**. Many functionalities relied on one another, making it tricky to define a clear execution flow. For example, a user cannot categorize a transaction unless a **transaction has already been logged**, and generating a **financial report** requires existing **transaction records**. Without properly tracking these dependencies, there was a risk of **missing critical interactions**, which could result in incomplete test cases or functionality gaps. Documenting these relationships thoroughly was necessary to ensure that all interactions between different features were properly accounted for.  
 
-Each actor interacts with the system differently, requiring distinct **use cases**. Ensuring **no overlap or redundancy** was a difficult task. For example, both the **Admin** and **Compliance Officer** handle **user authentication**, but their **roles differ**, requiring clear role separation.
+Ensuring a **balance between functional and non-functional requirements** was another complex aspect of the process. Initially, I assumed that testing would primarily focus on core functions such as **logging transactions, categorizing expenses, and setting budgets**. However, I quickly realized that **non-functional aspects** like performance, security, and usability were just as important. For instance, performance testing required simulating **1,000 concurrent users logging transactions** while maintaining response times of **≤ 2 seconds**. Security testing had to consider **brute-force attack scenarios**, ensuring that user accounts would **lock after multiple failed login attempts** and require **admin intervention for reactivation**. Unlike functional test cases, these non-functional requirements were harder to define in traditional use case formats, requiring additional effort in test planning.  
 
----
+Another significant challenge was identifying and documenting **edge cases and potential user errors**. While standard use cases were straightforward to outline, predicting unexpected user behaviors required careful consideration. Some critical questions arose during this process: **What happens if a user enters an invalid transaction amount? What if a budget category is deleted after transactions have already been recorded? How does the system behave if a user loses internet connectivity while saving a transaction?** Anticipating these scenarios and incorporating them into test cases was essential for ensuring a **robust and error-resistant application**. Without this level of detail, the system could fail under real-world conditions that were initially overlooked.  
 
-## 🔗 **2. Handling Complex Dependencies Between Use Cases**  
-Some use cases depend on others, making it difficult to define a **clear execution flow**. For example:  
+Writing test cases that provided **comprehensive coverage without redundancy** was another challenge. Many features in the Budget Tracker are interconnected, which meant that some test cases naturally overlapped. For example, **budget tracking, notifications, and financial reports** all rely on transaction data. If not carefully structured, test cases could end up **repeating the same checks multiple times**, making the documentation unnecessarily complex and difficult to maintain. To address this, I had to **modularize test cases** so that each focused on a **specific functionality** while still contributing to a complete validation of the system.  
 
-✅ **Categorizing transactions** requires an existing **logged transaction**.  
-📊 **Generating financial reports** requires past **transaction records**.  
+Despite these challenges, the process of translating system requirements into **use cases and test cases** was a valuable learning experience. It required me to think critically about **how different system components interact** and how to ensure that every functionality is **properly validated**. This process involved **careful planning, iteration, and refinement** to address dependencies, edge cases, and non-functional requirements. Although it was sometimes frustrating to rework certain parts, I now understand that this level of precision is essential for ensuring a **well-structured and user-friendly application**.  
 
-Ensuring these **dependencies were well-documented** prevented **missing critical interactions** in the system’s workflow. Without proper tracking, **incomplete test scenarios** could arise, leading to functionality gaps.
+Looking ahead, I believe that using **automated test frameworks** and improving **use case documentation methodologies** will help make this process more efficient in future projects. This experience has given me a **deeper appreciation for software testing and system design**, and I now recognize the importance of **thorough planning and documentation** in software development. 🚀  
 
----
-
-## ⚖ **3. Balancing Functional and Non-Functional Requirements**  
-While it was **straightforward** to define test cases for:  
-✔ **Logging transactions**  
-✔ **Categorizing expenses**  
-✔ **Setting budgets**  
-
-Ensuring **non-functional requirements** were properly tested posed additional challenges. These included:  
-
-⏳ **Performance Testing** – Simulating **1,000 concurrent users** logging transactions while ensuring response times stay **≤ 2 seconds**.  
-🔐 **Security Testing** – Preventing **brute-force attacks**, enforcing **account lockouts** after multiple failed login attempts, and requiring **admin intervention** to reset access.  
-
-These **non-functional aspects** required additional test planning beyond traditional use case formats.
-
----
-
-## 🛠 **4. Writing Test Cases That Cover Edge Cases and User Errors**  
-A major challenge was identifying **unexpected user behaviors** that could break the system. Critical edge cases included:  
-
-⚠ **What if a user enters an invalid transaction amount?**  
-⚠ **What happens if a budget category is deleted after transactions are recorded?**  
-⚠ **How does the system handle a lost internet connection while saving a transaction?**  
-
-By **anticipating and testing** these scenarios, the system could be made **robust and error-resistant**. Without proper edge case testing, **real-world failures** could occur.
-
----
-
-## ♻ **5. Ensuring Test Case Coverage Without Redundancy**  
-Writing test cases that **cover all functionalities** without unnecessary duplication was another challenge. Since many features are **interconnected**, some test cases naturally overlapped.  
-
-For example:  
-
-✔ **Budget tracking, notifications, and financial reports** all rely on transaction data.  
-✔ If **not properly modularized**, test cases could duplicate checks unnecessarily.  
-
-To **avoid redundancy**, test cases were structured so that each one focused on a **unique aspect** of the system.
-
----
-
-## 🎯 **Conclusion**  
-Despite these challenges, translating requirements into **use cases and test cases** was a **valuable learning experience**. It ensured a **structured development process**, leading to a **more robust and user-friendly Budget Tracker**.  
-
-This process required:  
-🔹 **Careful planning**  
-🔹 **Iteration & refinement**  
-🔹 **Consideration of all edge cases & dependencies**  
