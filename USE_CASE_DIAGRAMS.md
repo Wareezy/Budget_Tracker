@@ -9,7 +9,7 @@ graph LR
   SupportRep["Customer Support Representative"]
 
   %% Define system boundary on the right
-  subgraph BudgetSystem["Minimalist Budget Tracker"]
+  subgraph BudgetSystem["Budget Tracker"]
     A["Log Transaction"]
     B["Categorize Transactions"]
     C["Set & Track Budget"]
