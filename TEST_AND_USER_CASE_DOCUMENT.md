@@ -241,7 +241,7 @@ Below is a test case table with **8 test cases** that validate **functional requ
 
 # 🎯 **Reflection: Challenges in Translating Requirements to Use Cases and Tests**
 
-Developing the **Minimalist Budget Tracker** required transforming high-level requirements into **detailed use cases and structured test cases**. While this process was essential for ensuring system functionality and user experience, several challenges emerged when mapping these requirements into well-defined use cases and corresponding test scenarios.  
+Developing the **Budget Tracker** required transforming high-level requirements into **detailed use cases and structured test cases**. While this process was essential for ensuring system functionality and user experience, several challenges emerged when mapping these requirements into well-defined use cases and corresponding test scenarios.  
 
 ---
 
