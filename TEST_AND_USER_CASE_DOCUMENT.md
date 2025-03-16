@@ -76,7 +76,8 @@ graph LR
 ## 🎧 Customer Support Representative
 **The Customer Support Representative actor** interacts with the **Provide Customer Support** use case to troubleshoot issues and resolve user concerns, addressing the **User’s need for a responsive and accessible support system**.
 
-
+---
+<br>
 
 # 📌 Use Case Specifications
 
