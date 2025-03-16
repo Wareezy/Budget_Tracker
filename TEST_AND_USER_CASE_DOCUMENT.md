@@ -201,7 +201,9 @@ graph LR
 4. The team **analyzes trends** and refines marketing strategies.
 
 ---
-
+<br>
+<br>
+<br>
 
 # TEST CASE DEVELOPMENT
 <br>
