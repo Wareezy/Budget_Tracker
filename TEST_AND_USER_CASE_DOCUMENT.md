@@ -1,4 +1,4 @@
-# 📌 USE CASE DIAGRAMS
+# 📌 USE CASE DIAGRAM
 <br>
 <br>
 
