@@ -1,4 +1,4 @@
-# 📌 USE CASE DIAGRAM
+# 📌 1.USE CASE DIAGRAM
 <br>
 <br>
 
@@ -88,7 +88,7 @@ graph LR
 <br>
 <br>
 
-# 📌 Use Case Specifications
+# 📌 2.Use Case Specifications
 
 ## **Use Case 1: Log Transaction**
 **🎭 Actor:** User (Individual Managing Finances)  
@@ -205,7 +205,7 @@ graph LR
 <br>
 <br>
 
-# TEST CASE DEVELOPMENT
+# 3.TEST CASE DEVELOPMENT
 <br>
 <br>
 
