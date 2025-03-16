@@ -4,3 +4,7 @@ A simple and intuitive budget tracking system that allows users to log income an
 
 - [SPECIFICATION](https://github.com/Wareezy/Budget_Tracker/blob/main/SPECIFICATION.md)
 - [ARCHITECTURE](https://github.com/Wareezy/Budget_Tracker/blob/main/ARCHITECTURE.md)
+- [REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/ARCHITECTURE.md)
+- [ARCHITECTURE](https://github.com/Wareezy/Budget_Tracker/blob/main/ARCHITECTURE.md)
+- [ARCHITECTURE](https://github.com/Wareezy/Budget_Tracker/blob/main/ARCHITECTURE.md)
+- [ARCHITECTURE](https://github.com/Wareezy/Budget_Tracker/blob/main/ARCHITECTURE.md)
