@@ -102,3 +102,22 @@
 
 ### ❌ Won’t-have (at this stage)
 - None assigned; potential future features not in scope of MVP.
+
+<br>
+<br>
+<br>
+
+| Task Description | Task ID | Assigned To | Estimated Hours | Status (To Do/In Progress/Done) |
+|------------------|--------|------------|-----------------|---------------------------------|
+| Design database schema for transactions and categories | T-001 | Dev Team | 8 | To Do |
+| Develop API endpoint to create, update, delete transactions | T-002 | Dev Team | 12 | To Do |
+| Build front-end UI for transaction entry and listing | T-003 | Dev Team | 10 | To Do |
+| Implement transaction category selection (predefined/custom) | T-004 | Dev Team | 8 | To Do |
+| Create real-time balance calculation logic | T-005 | Dev Team | 10 | To Do |
+| Design dashboard UI for quick transaction logging | T-006 | Dev Team | 8 | To Do |
+| Integrate transaction logging functionality into the dashboard | T-007 | Dev Team | 10 | To Do |
+| Implement secure user authentication (login/logout) | T-008 | Dev Team | 12 | To Do |
+| Setup AES-256 encryption for sensitive data storage | T-009 | Dev Team | 8 | To Do |
+| Write unit tests for transaction APIs and balance updates | T-010 | QA Team | 10 | To Do |
+
+
