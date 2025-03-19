@@ -120,5 +120,10 @@
 | T-009 | Setup AES-256 encryption for sensitive data storage | Dev Team | 8 | To Do |
 | T-010 | Write unit tests for transaction APIs and balance updates | QA Team | 10 | To Do |
 
+<br>
+<br>
+
+## 🏁 Sprint Goal Statement:
+This sprint focuses on delivering the core financial tracking features essential to the MVP. By implementing transaction logging, categorization, real-time balance updates, and basic security, the sprint ensures users can accurately record and monitor their finances. These foundational features are critical to meeting the MVP goal of providing a simple, secure, and user-friendly platform for personal financial management.
 
 
