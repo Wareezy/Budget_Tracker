@@ -44,6 +44,7 @@
 <br>
 <br>
 <br>
+
 | Story ID | User Story | Priority (MoSCoW) | Effort Estimate | Dependencies |
 |--------|-----------|--------------------|-----------------|-------------|
 | US001 | Log income and expense transactions | Must-have | 3 | None |
