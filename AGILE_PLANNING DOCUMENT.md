@@ -129,6 +129,7 @@ This sprint focuses on delivering the core financial tracking features essential
 <br>
 <br>
 <br>
+
 ## Reflection on Prioritization, Estimation, and Agile Alignment
 
 Working through the Agile planning process for my Budget Tracker project revealed several internal challenges, especially since I was both the product owner and the primary stakeholder.
