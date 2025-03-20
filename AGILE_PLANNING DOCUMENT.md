@@ -159,7 +159,3 @@ Lastly, being the only stakeholder made it difficult to validate decisions objec
 Having to be both the driver and the critic slowed progress and created moments of self-doubt. Yet, this exercise in self-reflection strengthened my understanding of Agile’s flexibility and the importance of sticking to priorities even when personal biases lean toward over-delivery.
 
 ---
-
-In conclusion, the process tested my ability to balance ambition with practicality. It highlighted how emotional bias and overthinking can impact prioritization and estimation, especially in solo projects. The biggest takeaway is the importance of discipline in following Agile’s iterative mindset and trusting the process rather than chasing perfection from the outset.
-
-
