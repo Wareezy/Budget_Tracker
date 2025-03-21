@@ -12,4 +12,4 @@ A simple and intuitive budget tracking system that allows users to log income an
 
 # Use Case Modeling and Test Case Development for the System
 
-- [TEST_AND_USE_CASE_DOCUMENT](https://github.com/Wareezy/Budget_Tracker/blob/main/TEST_AND_USE_CASE_DOCUMENT.md)
+- [TEST_AND_USE_CASE_DOCUMENT](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_5/TEST_AND_USE_CASE_DOCUMENT.md)
