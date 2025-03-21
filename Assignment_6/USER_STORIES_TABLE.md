@@ -1,5 +1,8 @@
-![Application Screenshot](Table_Artifacts/USER_STORIES.PNG)
+## User Stories Table
 
+<br>
+<br>
+![Application Screenshot](Table_Artifacts/USER_STORIES.PNG)
 
 <br>
 <br>
