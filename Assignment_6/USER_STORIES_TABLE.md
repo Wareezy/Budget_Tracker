@@ -1,13 +1,18 @@
 ## User Stories Table
+- [GITHUB-TOOLS: USER_STORIES_TABLE](https://github.com/users/Wareezy/projects/10)
+<br>
+<br>
 
-<br>
-<br>
 ![Application Screenshot](Table_Artifacts/USER_STORIES.PNG)
 
 <br>
 <br>
 
 ## Functional Requirements - User Stories
+<br>
+<br>
+
+## Markdown Table Version
 
 | Story ID | User Story | Acceptance Criteria | Priority |
 |--------|-----------|---------------------|---------|
