@@ -13,3 +13,14 @@
 
 <br>
 <br>
+
+## Product Backlog Table
+<br>
+
+- [Github Tools -Product Backlog Table](https://github.com/users/Wareezy/projects/9/views/1)
+<br>
+<br>
+
+## Product Backlog Table - Screenshot
+
+![Application Screenshot](Table_Artifacts/BACKLOG.PNG)
