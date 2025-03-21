@@ -9,11 +9,13 @@
 <br>
 <br>
 
-## Functional Requirements - User Stories
-<br>
+## Markdown Table Versions
+
 <br>
 
-## Markdown Table Version
+## Functional Requirements - User Stories
+
+<br>
 
 | Story ID | User Story | Acceptance Criteria | Priority |
 |--------|-----------|---------------------|---------|
