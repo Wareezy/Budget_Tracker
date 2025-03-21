@@ -43,6 +43,9 @@
 <br>
 <br>
 
+## Prioritization Justification
+<br>
+
 ### 🟢 Must-have Justification
 - Core functionalities needed for MVP success.
 - Directly impact user trust, data security, and usability.
