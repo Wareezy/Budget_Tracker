@@ -3,7 +3,7 @@
 - [GITHUB-TOOLS: SPRINT BACKLOG TABLE](https://github.com/users/Wareezy/projects/10)
 <br>
 <br>
-- [SPRINT_BACKLOG_TABLE](https://github.com/user-attachments/assets/ea424408-cd00-44c7-89a3-12a3f5317b25)
+![Application Screenshot](Table_Artifacts/SPRINT.PNG)
 
 ## 🏁 Mardown Version:
 

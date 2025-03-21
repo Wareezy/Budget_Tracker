@@ -1,3 +1,9 @@
+![Application Screenshot](Table_Artifacts/USER_STORIES.PNG)
+
+
+<br>
+<br>
+
 ## Functional Requirements - User Stories
 
 | Story ID | User Story | Acceptance Criteria | Priority |
