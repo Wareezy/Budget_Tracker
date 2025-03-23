@@ -9,7 +9,7 @@
 <br>
 
 ## User Stories Table-Screenshot
-![Application Screenshot](Table_Artifacts/USER_STORIES.PNG)
+![Application Screenshot](Table_Artifacts/USER_STORY.PNG)
 
 <br>
 <br>
