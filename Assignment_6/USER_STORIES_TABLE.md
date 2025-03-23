@@ -4,7 +4,8 @@
 <br>
 
 ## User Stories Table-Screenshot
-![Application Screenshot](Table_Artifacts/USER_STORIES.PNG)
+![image](https://github.com/user-attachments/assets/4ffc6fc5-2b3f-4a11-a25b-68d71dc9a37e)
+
 
 <br>
 <br>
