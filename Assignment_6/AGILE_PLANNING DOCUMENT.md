@@ -23,7 +23,7 @@
 
 ## Product Backlog Table - Screenshot
 
-![image](https://github.com/user-attachments/assets/466d5f46-4aba-4e8a-84d8-58c520604538)
+![image](https://github.com/user-attachments/assets/7a45eebd-ce8e-4bfe-b28d-7181ae556abf)
 
 <br>
 <br>
