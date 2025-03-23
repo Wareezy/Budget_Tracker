@@ -19,33 +19,33 @@
 
 | Story ID | User Story | Priority (MoSCoW) | Effort Estimate | Dependencies |
 |--------|-----------|--------------------|-----------------|-------------|
-| US001 | Log income and expense transactions | Must-have | 3 | None |
-| US002 | Categorize transactions for spending analysis | Must-have | 3 | US001 |
-| US003 | Real-time balance updates | Must-have | 4 | US001 |
-| US004 | Set budgets per category | Must-have | 4 | US002 |
-| US008 | Secure login and encrypted data storage | Must-have | 5 | None |
-| UC002 | Manage authentication securely (OAuth/MFA) | Must-have | 5 | US008 |
-| US007 | Generate financial reports (PDF/CSV) | Should-have | 3 | US001, US002 |
-| US005 | Schedule recurring transactions | Should-have | 3 | US001 |
-| UC004 | Log transactions from dashboard | Must-have | 2 | US001 |
-| UC006 | Set and track budgets with alerts | Must-have | 3 | US004 |
-| US006 | Notifications for bills, budgets, summaries | Should-have | 3 | US004, UC006 |
-| US009 | Data sync across devices | Should-have | 4 | US001, US003 |
-| US010 | Customize app preferences (currency, notifications) | Could-have | 2 | US001 |
-| UC001 | Contact support easily | Should-have | 2 | None |
-| UC003 | Analyze user engagement trends (Marketing) | Could-have | 2 | US001, US002, US003 |
-| UC007 | Generate reports for advisors | Should-have | 3 | US007 |
-| UC008 | Notify users about financial events | Should-have | 3 | US006 |
-| NFR-001 | WCAG 2.1 Accessibility Compliance | Must-have | 2 | None |
-| NFR-002 | App responsive on all devices | Must-have | 3 | None |
-| NFR-003 | Deployable on AWS/Firebase/Linux | Could-have | 2 | None |
-| NFR-004 | Modular, well-documented system | Should-have | 3 | None |
-| NFR-005 | System logging & monitoring | Must-have | 4 | None |
-| NFR-006 | Handle 10,000 users under load | Must-have | 4 | NFR-05 |
-| NFR-007 | AES-256 Data Encryption | Must-have | 4 | US008 |
-| NFR-008 | HTTPS/TLS for secure comms | Must-have | 3 | None |
-| NFR-009 | App responds within 2 seconds | Must-have | 3 | NFR-04, NFR-10 |
-| NFR-010 | Database queries optimized <500ms | Should-have | 3 | NFR-04 |
+| US001 | As a user, I want to log income and expense transactions so that I can track my finances easily. | Must-have | 3 | None |
+| US002 | As a user, I want to categorize transactions so that I can analyze my spending by category. | Must-have | 3 | US001 |
+| US003 | As a user, I want my financial balance to update in real time so that I always know my current balance. | Must-have | 4 | US001 |
+| US004 | As a user, I want to set budgets for categories so that I can monitor and control my spending. | Must-have | 4 | US002 |
+| US008 | As a user, I want my data secured and private so that I can trust the system with my financial info. | Must-have | 5 | None |
+| UC002 | As a user, I want to manage authentication securely so that my account is protected. | Must-have | 5 | US008 |
+| US007 | As a user, I want to generate financial reports so that I can review my income, expenses, and budgets. | Should-have | 3 | US001, US002 |
+| US005 | As a user, I want to schedule recurring transactions so that I don't have to log them manually every time. | Should-have | 3 | US001 |
+| UC004 | As a user, I want to log transactions from my dashboard so that my finances stay up-to-date. | Must-have | 2 | US001 |
+| UC006 | As a user, I want to set and track my budget so that I stay within my financial goals. | Must-have | 3 | US004 |
+| US006 | As a user, I want to receive notifications for important financial events so that I stay informed. | Should-have | 3 | US004, UC006 |
+| US009 | As a user, I want my data synced across devices so that I can access my budget anywhere. | Should-have | 4 | US001, US003 |
+| US010 | As a user, I want to customize my preferences so that the app works the way I like. | Could-have | 2 | US001 |
+| UC001 | As a user, I want to contact support easily so that I can resolve any issues I encounter. | Should-have | 2 | None |
+| UC003 | As a marketing team, I want to analyze user engagement so that I can improve user retention. | Could-have | 2 | US001, US002, US003 |
+| UC007 | As a user or financial advisor, I want to generate financial reports so that I can analyze finances. | Should-have | 3 | US007 |
+| UC008 | As a system, I want to notify users about key financial events so that users stay informed. | Should-have | 3 | US006 |
+| NFR001 | As a user, I want the system to comply with WCAG 2.1 so that users with disabilities can access it. | Must-have | 2 | None |
+| NFR002 | As a user, I want the app to be responsive on all devices so that I can use it on mobile, tablet, or desktop. | Must-have | 3 | None |
+| NFR003 | As a system admin, I want the system deployable on AWS, Firebase, and Linux so that hosting is flexible. | Could-have | 2 | None |
+| NFR004 | As a developer, I want the system to be modular and documented so that updates and debugging are easier. | Should-have | 3 | None |
+| NFR005 | As a system admin, I want logging and monitoring enabled so that I can track system health and errors. | Must-have | 4 | None |
+| NFR006 | As a user, I want the system to handle up to 10,000 users so that it performs well under high load | Must-have | 4 | NFR-05 |
+| NFR007 | As a system admin, I want user data encrypted with AES-256 so that security compliance is metn | Must-have | 4 | US008 |
+| NFR008 | As a system admin, I want all communications secured with HTTPS/TLS so that data is protected in transit. | Must-have | 3 | None |
+| NFR009 | As a user, I want the app to respond within 2 seconds so that I can use it without delays. | Must-have | 3 | NFR-04, NFR-10 |
+| NFR010 | As a developer, I want database queries optimized within 500ms so that the system runs efficiently. | Should-have | 3 | NFR-04 |
 
 <br>
 <br>
