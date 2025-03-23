@@ -15,6 +15,7 @@ A simple and intuitive budget tracking system that allows users to log income an
 
 
 # Agile User Stories, Backlog, and Sprint Planning for the System
+- [AGILE_PLANNING_DOCUMENT](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/AGILE_PLANNING%20DOCUMENT.md)
 - [USER_STORIES_TABLE](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/USER_STORIES_TABLE.md)
 - [PRODUCT_BACKLOG](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/PRODUCT_BACKLOG.md)
 - [SPRINT_PLAN](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/SPRINT_PLAN.md)
