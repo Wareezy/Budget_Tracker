@@ -9,7 +9,7 @@
 <br>
 
 ## User Stories Table-Screenshot
-![Application Screenshot](Table_Artifacts/USER_STORIES.PNG)
+![image](https://github.com/user-attachments/assets/07fd4ac5-589a-463e-bee4-df571169344a)
 
 <br>
 <br>
