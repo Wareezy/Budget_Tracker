@@ -4,7 +4,7 @@
 <br>
 
 ## User Stories Table-Screenshot
-![Application Screenshot](Table_Artifacts/USER_STORY.PNG)
+![Application Screenshot](Table_Artifacts/USER_STORIES.PNG)
 
 <br>
 <br>
