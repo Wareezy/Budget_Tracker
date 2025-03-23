@@ -36,16 +36,16 @@
 | UC003 | Analyze user engagement trends (Marketing) | Could-have | 2 | US001, US002, US003 |
 | UC007 | Generate reports for advisors | Should-have | 3 | US007 |
 | UC008 | Notify users about financial events | Should-have | 3 | US006 |
-| NFR-01 | WCAG 2.1 Accessibility Compliance | Must-have | 2 | None |
-| NFR-02 | App responsive on all devices | Must-have | 3 | None |
-| NFR-03 | Deployable on AWS/Firebase/Linux | Could-have | 2 | None |
-| NFR-04 | Modular, well-documented system | Should-have | 3 | None |
-| NFR-05 | System logging & monitoring | Must-have | 4 | None |
-| NFR-06 | Handle 10,000 users under load | Must-have | 4 | NFR-05 |
-| NFR-07 | AES-256 Data Encryption | Must-have | 4 | US008 |
-| NFR-08 | HTTPS/TLS for secure comms | Must-have | 3 | None |
-| NFR-09 | App responds within 2 seconds | Must-have | 3 | NFR-04, NFR-10 |
-| NFR-10 | Database queries optimized <500ms | Should-have | 3 | NFR-04 |
+| NFR-001 | WCAG 2.1 Accessibility Compliance | Must-have | 2 | None |
+| NFR-002 | App responsive on all devices | Must-have | 3 | None |
+| NFR-003 | Deployable on AWS/Firebase/Linux | Could-have | 2 | None |
+| NFR-004 | Modular, well-documented system | Should-have | 3 | None |
+| NFR-005 | System logging & monitoring | Must-have | 4 | None |
+| NFR-006 | Handle 10,000 users under load | Must-have | 4 | NFR-05 |
+| NFR-007 | AES-256 Data Encryption | Must-have | 4 | US008 |
+| NFR-008 | HTTPS/TLS for secure comms | Must-have | 3 | None |
+| NFR-009 | App responds within 2 seconds | Must-have | 3 | NFR-04, NFR-10 |
+| NFR-010 | Database queries optimized <500ms | Should-have | 3 | NFR-04 |
 
 <br>
 <br>
