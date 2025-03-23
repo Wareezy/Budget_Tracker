@@ -22,7 +22,7 @@ Agile’s iterative nature—where not everything is perfect or finished in the 
 
 However, reflecting on Agile’s core values reminded me that early feedback and adaptability matter more than launching a fully loaded product. Forcing myself to stick to the prioritized backlog helped build confidence that focusing on fewer but well-executed features would lead to better outcomes.
 
-### Solo Stakeholder Reflection
+### Stakeholder Reflection
 Lastly, being the only stakeholder made it difficult to validate decisions objectively. There was no external pressure, which at times reduced urgency and allowed procrastination to creep in—another form of internal resistance. 
 
 Having to be both the driver and the critic slowed progress and created moments of self-doubt. Yet, this exercise in self-reflection strengthened my understanding of Agile’s flexibility and the importance of sticking to priorities even when personal biases lean toward over-delivery.
