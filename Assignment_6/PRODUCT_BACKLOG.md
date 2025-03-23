@@ -7,7 +7,7 @@
 
 ## Product Backlog Table - Screenshot
 
-![Application Screenshot](Table_Artifacts/BACKLOG.PNG)
+![image](https://github.com/user-attachments/assets/09426b24-4aed-4ad6-bc3d-664f93be8ebe)
 
 
 <br>
