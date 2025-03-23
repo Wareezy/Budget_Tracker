@@ -9,7 +9,7 @@
 
 ## Sprint BackLog Table-Screenshot:
 
-![Application Screenshot](Table_Artifacts/SPRINT_PLAN.PNG)
+![image](https://github.com/user-attachments/assets/35a1c2b7-cde4-4d0d-a97e-4c4f40a010ff)
 
 ## Mardown Version:
 
