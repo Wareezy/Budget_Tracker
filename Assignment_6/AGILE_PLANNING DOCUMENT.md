@@ -36,4 +36,4 @@
 
 ## Sprint BackLog Table-Screenshot:
 
-![Application Screenshot](Table_Artifacts/SPRINT_PLAN.PNG)
+![image](https://github.com/user-attachments/assets/f2d99c41-a915-419e-bfd6-01cce098a4f6)
