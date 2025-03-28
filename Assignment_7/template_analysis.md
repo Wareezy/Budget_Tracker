@@ -1,1 +1,9 @@
+## Template Comparison Table
+
+| Template         | Columns & Workflows                                                                 | Automation Features                                                                                     | Agile Suitability & Use Case                                                                 |
+|------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **Kanban**        | `To Do`, `In Progress`, `Done`                                                      | - Auto-move issues when PR is merged<br>- Auto-close issues<br>- Drag & drop cards between columns      | ✅ Ideal for visualizing workflows and limiting WIP<br>✅ Supports continuous delivery cycles  |
+| **Roadmap**       | `Now`, `Next`, `Later` + Timeline View                                              | - Syncs with milestones<br>- Epic tracking<br>- Timeline visualization<br>- Supports multiple teams     | ✅ Great for long-term product planning<br>✅ Helps prioritize and sequence features for delivery |
+| **Bug Tracker**   | `New`, `Needs Triage`, `In Progress`, `Blocked`, `Done`                             | - Auto-labeling based on issue templates<br>- Assignee automation<br>- Filter by severity or priority    | ✅ Essential for QA and maintenance<br>✅ Encourages backlog grooming and fast bug resolution   |
+| **Team Planning** | `Backlog`, `Iteration`, `In Progress`, `Blocked`, `Review`, `Done`                  | - Iteration planning and cycle tracking<br>- Velocity & capacity indicators<br>- Built-in insights view | ✅ Highly structured for Agile sprints<br>✅ Encourages retrospectives and planning accuracy    |
 
