@@ -1,2 +1,1 @@
-![image](https://github.com/user-attachments/assets/f4d80833-e93c-48f5-978f-511c11f06d79)
-
+![Team_Planning](https://github.com/user-attachments/assets/76136a11-ef3c-4433-8f2a-fbd1e4cfd378)
