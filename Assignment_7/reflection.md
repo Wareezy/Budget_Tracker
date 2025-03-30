@@ -34,4 +34,15 @@ For my current stage, **GitHub Projects hits the sweet spot**: it’s structured
 
 ### 🧠 Final Thoughts
 
-Customizing the **Team Planning** template helped me better understand my development rhythm and gave me a clean, visual way to manage my tasks. The added columns — *"Blocked"*
+Customizing the **Team Planning** template helped me better understand my development rhythm and gave me a clean, visual way to manage my tasks. The added columns — *"Blocked"* and *"Testing"* — were small changes that made a big difference in clarity and accountability.
+
+GitHub Projects isn’t perfect, but for solo development with an Agile mindset, it provides just enough structure to stay organized without the overhead of more complex tools. As my project grows, I can revisit Jira or Trello, but for now — this setup empowers me to build, test, and deliver with focus.
+
+---
+
+### 📚 Lessons Learned
+
+Throughout this process, I gained several valuable insights:
+
+- **Workflow Design Matters**: A well-structured board makes a huge difference in productivity. Simply adding "Testing" and "Blocked" helped me slow down, reflect, and avoid skipping essential steps.
+- **Tooling Should Serve the Process**
