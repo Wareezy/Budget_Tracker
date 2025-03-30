@@ -24,5 +24,5 @@ A simple and intuitive budget tracking system that allows users to log income an
 # GitHub Project Templates and Kanban Board Implementation 
 - [KANBAN_EXPLANATION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_7/kanban_explanation.md)
 - [REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_7/reflection.md)
-- [SCREENSHOTS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/PRODUCT_BACKLOG.md)
+- [SCREENSHOTS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_7/screenshots.md)
 - [TEMPLATE_ANALYSIS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_7/template_analysis.md)
