@@ -8,6 +8,9 @@ One of the most valuable aspects of using a Kanban board is that it helps me **l
 
 Whether I’m working alone or in a team, a Kanban board keeps me organized, makes priorities clear, and creates transparency in how work is being managed. It’s not just about tracking — it’s about **working smarter by making work visible**.
 
+<br>
+<br>
+
 ### 📌 How My Team Planning Board Supports Agile and Productivity
 
 [GITHUB-TOOLS: BUDGET_TRACKER_TEAM_PLANNING](https://github.com/users/Wareezy/projects/18)
