@@ -20,3 +20,9 @@ A simple and intuitive budget tracking system that allows users to log income an
 - [PRODUCT_BACKLOG](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/PRODUCT_BACKLOG.md)
 - [SPRINT_PLAN](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/SPRINT_PLAN.md)
 - [REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/REFLECTION.md)
+
+# GitHub Project Templates and Kanban Board Implementation 
+- [KANBAN_EXPLANATION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/AGILE_PLANNING%20DOCUMENT.md)
+- [REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/USER_STORIES_TABLE.md)
+- [SCREENSHOTS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/PRODUCT_BACKLOG.md)
+- [TEMPLATE_ANALYSIS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_6/SPRINT_PLAN.md)
