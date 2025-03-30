@@ -45,4 +45,9 @@ GitHub Projects isn’t perfect, but for solo development with an Agile mindset,
 Throughout this process, I gained several valuable insights:
 
 - **Workflow Design Matters**: A well-structured board makes a huge difference in productivity. Simply adding "Testing" and "Blocked" helped me slow down, reflect, and avoid skipping essential steps.
-- **Tooling Should Serve the Process**
+- **Tooling Should Serve the Process**: It’s easy to get caught up in features, but what matters most is how the tool helps you stay focused and finish tasks.
+- **Simplicity is Powerful**: I initially thought I needed something more complex, but I learned that the right level of simplicity helps me work faster and think more clearly.
+- **Solo Devs Still Benefit from Agile Practices**: Applying Agile methods like iterations, WIP limits, and retrospectives—even when working alone—greatly improves project momentum and quality.
+- **Customization is Key**: No template will ever be perfect, but customizing just a little can make a big difference in aligning the tool with how I think and work.
+
+This experience not only helped me manage my project better but also made me more confident in adapting Agile tools to suit my personal development style.
