@@ -15,8 +15,13 @@ Whether I’m working alone or in a team, a Kanban board keeps me organized, mak
 
 [GITHUB-TOOLS: BUDGET_TRACKER_TEAM_PLANNING](https://github.com/users/Wareezy/projects/18)
 
+<br>
+<br>
+
 ![Team_Planning](https://github.com/user-attachments/assets/3d1499ee-d01a-43ac-9c52-9f13391d9612)
 
+<br>
+<br>
 
 #### 🧭 Visualizes Workflow
 
