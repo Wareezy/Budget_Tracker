@@ -1,7 +1,12 @@
 - [GITHUB-TOOLS: BUDGET_TRACKER_TEAM_PLANNING](https://github.com/users/Wareezy/projects/18)
 
+<br>
+<br>
+
 ![Team_Planning](https://github.com/user-attachments/assets/76136a11-ef3c-4433-8f2a-fbd1e4cfd378)
 
+<br>
+<br>
 
 ### 🧩 Why I Customized My Team Planning Board Columns
 
