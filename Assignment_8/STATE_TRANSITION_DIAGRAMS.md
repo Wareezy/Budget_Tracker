@@ -64,6 +64,34 @@ stateDiagram-v2
 
 
 ```
+<br>
+<br>
+
+## 🧠 Explanation
+
+### 🔑 Key States:
+
+- **NotSet**: No budget defined yet.  
+- **Set**: A budget has been assigned to a category.  
+- **Exceeded**: Spending has passed the limit.  
+- **Updated**: User adjusted the budget.  
+- **Archived**: Budget is no longer being used.  
+
+### 🔄 Key Transitions:
+
+- **NotSet → Set**: Initial setup of budget.  
+- **Set → Exceeded**: Triggered by reaching 100% spending.  
+- **Exceeded → Updated**: User increases or adjusts the budget.  
+- **Any → Archived**: Budget is disabled or deleted.  
+
+---
+
+### ✅ Functional Requirement Mapping:
+
+- **FR-004**: Budgeting capabilities.  
+- **UC006**: Budget monitoring and alerts.  
+- **FR-006**: Alerts triggered when budget is exceeded.  
+- **FR-010**: Enable/disable budget preferences.  
 
 <br>
 <br>
