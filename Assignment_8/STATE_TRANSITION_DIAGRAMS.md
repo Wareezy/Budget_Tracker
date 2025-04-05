@@ -97,6 +97,11 @@ stateDiagram-v2
 <br>
 <br>
 
+## 3. 👤 User Account
+
+<br>
+<br>
+
 ```mermaid
 
 stateDiagram-v2
@@ -108,6 +113,39 @@ stateDiagram-v2
     Deactivated --> [*]
 
 ```
+<br>
+<br>
+
+## 🧠 Explanation
+
+### 🔑 Key States:
+
+- **Registered**: User account created but unverified.  
+- **Active**: Account fully operational after verification.  
+- **Suspended**: Temporarily disabled due to policy violation.  
+- **Deactivated**: Closed by user.  
+- **Reinstated**: Admin reactivates a suspended account.  
+
+### 🔄 Key Transitions:
+
+- **Registered → Active**: Verification completed.  
+- **Active → Suspended**: Admin action due to issues.  
+- **Active → Deactivated**: Voluntary deactivation.  
+- **Suspended → Reinstated**: Admin lifts suspension.  
+
+---
+
+### ✅ Functional Requirement Mapping:
+
+- **FR-008**: Secure user accounts.  
+- **UC002**: Secure authentication.  
+- **NFR007**: Encrypted user information.  
+- **NFR006**: Handle account lifecycle at scale.  
+
+<br>
+<br>
+
+## 4. 🔁 Recurring Transaction
 
 <br>
 <br>
@@ -122,7 +160,36 @@ stateDiagram-v2
     Canceled --> [*]
 
 ```
+<br>
+<br>
 
+## 🧠 Explanation
+
+### 🔑 Key States:
+
+- **Scheduled**: A future transaction is queued.  
+- **Processed**: The transaction is executed.  
+- **NextScheduled**: Another instance is scheduled automatically.  
+- **Canceled**: User ends the recurring transaction.  
+
+### 🔄 Key Transitions:
+
+- **Scheduled → Processed**: Triggered by scheduled date.  
+- **Processed → NextScheduled**: Recurrence logic re-applies.  
+- **Scheduled → Canceled**: Recurrence removed by user.  
+
+---
+
+### ✅ Functional Requirement Mapping:
+
+- **FR-005**: Automate recurring payments.  
+- **FR-003**: Update balance after each recurrence.  
+
+
+<br>
+<br>
+
+## 5. 🔐 Authentication Session
 
 <br>
 <br>
@@ -141,8 +208,38 @@ stateDiagram-v2
 
 <br>
 <br>
+
+## 🧠 Explanation
+
+### 🔑 Key States:
+
+- **Unauthenticated**: Default when not logged in.  
+- **Authenticating**: Login in progress.  
+- **Authenticated**: User successfully logged in.  
+- **Expired**: Session expired.  
+
+### 🔄 Key Transitions:
+
+- **Unauthenticated → Authenticating**: User starts login.  
+- **Authenticating → Authenticated**: Valid credentials.  
+- **Authenticating → Unauthenticated**: Login failure.  
+- **Authenticated → Expired**: Token times out.  
+
+---
+
+### ✅ Functional Requirement Mapping:
+
+- **UC002**: Secure login workflow.  
+- **FR-008**: Secure authentication handling.  
+- **NFR008**: Secure data transmission (HTTPS/TLS).  
+
+<br>
 <br>
 
+## 6. 🔔 Notification
+
+<br>
+<br>
 
 ```mermaid
 
@@ -156,7 +253,39 @@ stateDiagram-v2
 
 
 ```
+<br>
+<br>
 
+## 🧠 Explanation
+
+### 🔑 Key States:
+
+- **Scheduled**: Notification is queued.  
+- **Sent**: Delivered to the user.  
+- **Acknowledged**: User has seen or interacted.  
+- **Expired**: Notification not acted upon.  
+
+### 🔄 Key Transitions:
+
+- **Scheduled → Sent**: Triggered by event (e.g. budget limit).  
+- **Sent → Acknowledged**: User engages.  
+- **Sent → Expired**: Time runs out.  
+
+---
+
+### ✅ Functional Requirement Mapping:
+
+- **FR-006**: Notify users of events.  
+- **UC008**: Alerts based on transactions and budgets.  
+
+<br>
+<br>
+
+
+## 7. 📊 Report
+
+<br>
+<br>
 
 ```mermaid
 
@@ -167,9 +296,37 @@ stateDiagram-v2
     Ready --> Archived : User chooses to save
     Exported --> [*]
 
-
 ```
+<br>
+<br>
 
+## 🧠 Explanation
+
+### 🔑 Key States:
+
+- **Generating**: Report is being created.  
+- **Ready**: Available to download or save.  
+- **Exported**: User downloaded the file.  
+- **Archived**: Saved for later viewing.  
+
+### 🔄 Key Transitions:
+
+- **Generating → Ready**: Report is complete.  
+- **Ready → Exported**: User downloads it.  
+- **Ready → Archived**: Saved to report history.  
+
+---
+
+### ✅ Functional Requirement Mapping:
+
+- **FR-007**: Report generation.  
+- **UC007**: Reports used for financial review or advice.  
+
+
+<br>
+<br>
+
+## 8. 🗂️ Category
 
 <br>
 <br>
@@ -184,3 +341,27 @@ stateDiagram-v2
     Deleted --> [*]
 
 ```
+<br>
+<br>
+
+## 🧠 Explanation
+
+### 🔑 Key States:
+
+- **Predefined**: System-provided categories.  
+- **Customized**: User-defined or modified categories.  
+- **Deleted**: No longer in use.  
+
+### 🔄 Key Transitions:
+
+- **Predefined → Customized**: Edited or extended by user.  
+- **Customized → Updated**: Modified by the user again.  
+- **Customized → Deleted**: User removes the category.  
+
+---
+
+### ✅ Functional Requirement Mapping:
+
+- **FR-002**: Categorize transactions.  
+- **UC005**: Use categories in analytics.  
+- **FR-010**: Support for user customization.  
