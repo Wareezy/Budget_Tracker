@@ -45,9 +45,6 @@ stateDiagram-v2
 
 ```
 
-
-```mermaid
-
 <br>
 <br>
 
