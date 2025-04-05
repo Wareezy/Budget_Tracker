@@ -40,7 +40,7 @@ stateDiagram-v2
     Registered --> Active : Email verification
     Active --> Suspended : Admin restriction
     Active --> Deactivated : User-initiated closure
-    Suspended --> Reinstated : Admin review clears account
+    Suspended --> Reinstated : Admin clears account
     Deactivated --> [*]
 
 ```
