@@ -74,3 +74,21 @@ stateDiagram-v2
     Expired --> Unauthenticated
 
 ```
+
+<br>
+<br>
+<br>
+
+
+```mermaid
+
+stateDiagram-v2
+    [*] --> Scheduled
+    Scheduled --> Sent : Trigger event occurs
+    Sent --> Acknowledged : User opens or interacts
+    Sent --> Expired : Time limit reached
+    Acknowledged --> [*]
+    Expired --> [*]
+
+
+```
