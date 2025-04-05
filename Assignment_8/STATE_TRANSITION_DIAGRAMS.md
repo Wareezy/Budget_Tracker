@@ -49,6 +49,14 @@ stateDiagram-v2
 
 ```mermaid
 
+<br>
+<br>
+
+## 2. 💰 Budget
+
+<br>
+<br>
+
 stateDiagram-v2
     [*] --> NotSet
     NotSet --> Set : User defines limit
