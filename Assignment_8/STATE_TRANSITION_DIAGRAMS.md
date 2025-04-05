@@ -92,3 +92,31 @@ stateDiagram-v2
 
 
 ```
+
+
+```mermaid
+
+stateDiagram-v2
+    [*] --> Generating
+    Generating --> Ready : Data processed
+    Ready --> Exported : Download initiated
+    Ready --> Archived : User chooses to save
+    Exported --> [*]
+
+
+```
+
+
+<br>
+<br>
+
+```mermaid
+
+stateDiagram-v2
+    [*] --> Predefined
+    Predefined --> Customized : User edits or adds
+    Customized --> Deleted : User removes category
+    Customized --> Updated : User edits existing
+    Deleted --> [*]
+
+```
