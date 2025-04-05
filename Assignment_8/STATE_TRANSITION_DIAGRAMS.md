@@ -60,6 +60,4 @@ stateDiagram-v2
     Scheduled --> Canceled : User cancels recurring setting
     Canceled --> [*]
 
-
-
 ```
