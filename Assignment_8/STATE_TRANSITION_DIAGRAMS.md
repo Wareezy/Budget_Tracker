@@ -54,7 +54,7 @@ stateDiagram-v2
     [*] --> Scheduled
     Scheduled --> Processed : Triggered on due date
     Processed --> NextScheduled : Recurring logic regenerates
-    Scheduled --> Canceled : User cancels recurring setting
+    Scheduled --> Canceled : User cancels reapeated setting
     Canceled --> [*]
 
 ```
