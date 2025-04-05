@@ -47,19 +47,12 @@ stateDiagram-v2
 <br>
 <br>
 
-```mermaid
-
-<br>
-<br>
-
-
-<br>
-<br>
-
 ## 2. 💰 Budget
 
 <br>
 <br>
+
+```mermaid
 
 stateDiagram-v2
     [*] --> NotSet
