@@ -4,7 +4,7 @@
 stateDiagram-v2
     [*] --> Draft
     Draft --> Submitted : User confirms entry
-    Submitted --> Validated : System checks amount/category
+    Submitted --> Validated : System checks amount
     Validated --> Logged : Entry saved to database
     Logged --> Edited : User updates entry
     Logged --> Deleted : User deletes transaction
