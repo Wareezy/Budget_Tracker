@@ -73,4 +73,4 @@ stateDiagram-v2
     Authenticated --> Expired : Token timeout
     Expired --> Unauthenticated
 
-``
+```
