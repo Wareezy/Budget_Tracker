@@ -48,5 +48,18 @@ stateDiagram-v2
 
 ```mermaid
 
+<br>
+<br>
+
+```mermaid
+
+stateDiagram-v2
+    [*] --> Scheduled
+    Scheduled --> Processed : Triggered on due date
+    Processed --> NextScheduled : Recurring logic regenerates
+    Scheduled --> Canceled : User cancels recurring setting
+    Canceled --> [*]
 
 
+
+```
