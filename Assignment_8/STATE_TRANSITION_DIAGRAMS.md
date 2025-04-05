@@ -4,10 +4,10 @@
 stateDiagram-v2
     [*] --> Draft
     Draft --> Submitted : User confirms entry
-    Submitted --> Validated : System checks amount
-    Validated --> Logged : Entry saved to database
-    Logged --> Edited : User updates entry
-    Logged --> Deleted : User deletes transaction
+    Submitted --> Validated : System checks fields
+    Validated --> Logged : Saved to database
+    Logged --> Edited : User updates
+    Logged --> Deleted : User deletes
     Edited --> Logged
     Deleted --> [*]
 
@@ -20,12 +20,12 @@ stateDiagram-v2
 
 stateDiagram-v2
     [*] --> NotSet
-    NotSet --> Set : User defines budget for category
-    Set --> Updated : User modifies budget
-    Set --> Exceeded : Spending reaches budget limit
-    Exceeded --> Updated : Budget is increased
-    Updated --> Exceeded : Again exceeds
-    AnyState --> Archived : User removes budget
+    NotSet --> Set : User defines limit
+    Set --> Updated : User changes limit
+    Set --> Exceeded : Limit reached
+    Exceeded --> Updated : Budget adjusted
+    AnyState --> Archived : Disabled
+
 
 ```
 
