@@ -1,3 +1,7 @@
+## STATE TRANSITION DIAGRAMS
+<br>
+<br>
+
 ## 1.🧾 Transaction
 
 ```mermaid
