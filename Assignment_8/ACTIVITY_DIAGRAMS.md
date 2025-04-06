@@ -29,6 +29,7 @@ flowchart TD
 
 <br>
 <br>
+
 ### 🧠 Explanation:
 
 This workflow models how a user registers, and how the system handles input validation and secure data handling.
