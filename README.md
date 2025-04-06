@@ -31,4 +31,4 @@ A simple and intuitive budget tracking system that allows users to log income an
 - [ACTIVITY_DIAGRAMS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_8/ACTIVITY_DIAGRAMS.md)
 - [STATE_TRANSITION_DIAGRAMS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_8/STATE_TRANSITION_DIAGRAMS.md)
 - [EXPLANATIONS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_8/EXPLANATIONS.md)
-- [BUDGET_TRACKER_REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_7/reflection.md)
+- [BUDGET_TRACKER_REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_8/BUDGET_TRACKER_REFLECTION.md)
