@@ -25,6 +25,22 @@ flowchart TD
 
 <br>
 <br>
+### 🧠 Explanation:
+
+This workflow models how a user registers, and how the system handles input validation and secure data handling.
+
+#### 🔄 Key Actions:
+- User fills in credentials → system checks if email is unique.
+- If valid, account is created and verification email is sent.
+
+#### 🎯 Stakeholder Mapping:
+- Addresses **FR-008** (data security, hashed passwords).
+- Aligns with **UC002** (secure authentication).
+- Ensures scalability via validation and email confirmation.
+- Meets usability expectations by providing immediate feedback.
+
+<br>
+<br>
 
 ## 🔑 2. User Login
 
@@ -45,6 +61,20 @@ flowchart TD
 
 ```
 
+<br>
+<br>
+
+### 🧠 Explanation:
+
+This workflow models secure user login. It validates credentials and returns a session token.
+
+#### 🎯 Functional Mapping:
+- ✅ **FR-008**: Secure login
+- ✅ **UC002**: Manage authentication securely
+
+#### 👥 Stakeholder Value:
+- Supports concerns around **data protection**
+- Provides **error feedback** for invalid login attempts
 
 <br>
 <br>
@@ -74,6 +104,20 @@ flowchart TD
 <br>
 <br>
 
+### 🧠 Explanation:
+
+Captures the process of recording a new transaction.
+
+#### 🎯 Functional Mapping:
+- ✅ **FR-001**: Log transactions
+- ✅ **FR-003**: Real-time balance updates
+
+#### 👥 Stakeholder Value:
+- Ensures integrity and usability by validating inputs before updating the balance.
+
+<br>
+<br>
+
 ## 🗂️ 4. Categorize a Transaction
 
 <br>
@@ -95,6 +139,19 @@ flowchart TD
     A4 --> B1
 
 ```
+<br>
+<br>
+
+### 🧠 Explanation:
+
+Models the categorization of a transaction for better reporting.
+
+#### 🎯 Functional Mapping:
+- ✅ **FR-002**: Categorize by spending type
+- ✅ **UC005**: Improve reporting by category
+
+#### 👥 Stakeholder Value:
+- Supports goals for **data clarity** and **user personalization**.
 
 <br>
 <br>
@@ -117,6 +174,19 @@ flowchart TD
     A5 --> B1
 
 ```
+<br>
+<br>
+
+### 🧠 Explanation:
+
+Models the workflow for creating a category-specific budget.
+
+#### 🎯 Functional Mapping:
+- ✅ **FR-004**: Users can set budget limits
+- ✅ **UC006**: System tracks expenses vs. budget
+
+#### 👥 Stakeholder Value:
+- Ensures input validation and feedback, addressing **data integrity concerns**.
 
 <br>
 <br>
@@ -145,6 +215,20 @@ flowchart TD
 <br>
 <br>
 
+### 🧠 Explanation:
+
+Covers how reports are created and optionally exported.
+
+#### 🎯 Functional Mapping:
+- ✅ **FR-007**: Generate PDF/CSV reports
+- ✅ **UC007**: Financial advisor reporting
+
+#### 👥 Stakeholder Value:
+- Supports the need for **insight** and **data-driven decisions**.
+
+<br>
+<br>
+
 ## 🔁 7. Schedule a Recurring Transaction
 
 <br>
@@ -166,6 +250,19 @@ flowchart TD
     A4 --> B1
 
 ```
+<br>
+<br>
+
+### 🧠 Explanation:
+
+Handles setting up recurring entries (e.g., rent, salary).
+
+#### 🎯 Functional Mapping:
+- ✅ **FR-005**: Schedule auto-transactions
+- ✅ **FR-003**: Ensures balance stays updated
+
+#### 👥 Stakeholder Value:
+- Supports **automation** and reduces **manual logging workload**.
 
 <br>
 <br>
@@ -193,3 +290,17 @@ flowchart TD
     A5 --> C1 --> C2
 
 ```
+<br>
+<br>
+
+🧠 Explanation:
+
+Represents the alert process when spending nears or exceeds the budget.
+
+Maps to:
+✅ FR-006: Budget limit notifications
+✅ UC008: Event-based system messages
+
+Helps users stay informed and act early, fulfilling stakeholder needs for proactive alerts.
+
+---
