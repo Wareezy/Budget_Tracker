@@ -1,3 +1,6 @@
+## ACTIVITY DIAGRAMS
+<br>
+<br>
 ## 🔐 1. User Registration
 
 <br>
