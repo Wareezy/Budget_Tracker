@@ -298,14 +298,15 @@ flowchart TD
 <br>
 <br>
 
-🧠 Explanation:
+### 🧠 Explanation:
 
 Represents the alert process when spending nears or exceeds the budget.
 
-Maps to:
-✅ FR-006: Budget limit notifications
-✅ UC008: Event-based system messages
+#### 🎯 Functional Mapping:
+- ✅ **FR-006**: Budget limit notifications
+- ✅ **UC008**: Event-based system messages
 
-Helps users stay informed and act early, fulfilling stakeholder needs for proactive alerts.
+#### 👥 Stakeholder Value:
+- Helps users stay informed and act early, fulfilling the need for **proactive alerts**.
 
 ---
