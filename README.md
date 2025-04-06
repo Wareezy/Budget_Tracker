@@ -28,7 +28,7 @@ A simple and intuitive budget tracking system that allows users to log income an
 - [REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_7/reflection.md)
 
 # Object State Modeling and Activity Workflow Modeling Objective 
-- [ACTIVITY_DIAGRAMS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_7/template_analysis.md)
+- [ACTIVITY_DIAGRAMS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_8/ACTIVITY_DIAGRAMS.md)
 - [STATE_TRANSITION_DIAGRAMS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_8/STATE_TRANSITION_DIAGRAMS.md)
 - [EXPLANATIONS](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_7/screenshots.md)
 - [BUDGET_TRACKER_REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_7/reflection.md)
