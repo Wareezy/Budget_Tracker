@@ -2,21 +2,21 @@
 
 ## 📌 Challenges in Choosing Granularity for States and Actions
 
-One of the main challenges in designing the diagrams was finding the right **level of granularity**—that is, how detailed each state or action should be. Too much detail would make the diagrams cluttered and hard to read, especially in state transition diagrams. Too little detail, on the other hand, would make the diagrams vague and less useful for developers and stakeholders.
+One of the main challenges I faced while creating the diagrams was choosing the right level of **granularity**—deciding how detailed each state or action should be. If I added too much detail, the diagrams quickly became cluttered and difficult to follow. But if I simplified too much, they lacked the depth needed to properly communicate the system’s behavior.
 
-For example, in the **Transaction** state diagram, we chose to abstract validations and UI states into single transitions like `Submitted → Validated` rather than showing each field check individually. This maintained **readability** while still representing core behavior. However, this required careful consideration to avoid omitting critical states that would affect implementation or testing.
+For example, in the **Transaction** state diagram, I chose to abstract validations and UI-specific states into a single transition like `Submitted → Validated`, rather than breaking down every input field check. This helped keep the diagram readable while still reflecting the essential logic. It wasn’t always easy to decide what to include or leave out, and I had to constantly balance **clarity with completeness**.
 
 ---
 
 ## 🔁 Aligning Diagrams with Agile User Stories
 
-Aligning the diagrams with **Agile user stories** was another key challenge. Agile stories focus on **user value and outcomes**, whereas diagrams (especially state diagrams) often reflect **technical or backend behavior**.
+Aligning the diagrams with Agile **user stories** presented another interesting challenge. Agile stories are written from a user’s perspective and focus on **outcomes and value**, whereas diagrams—especially state diagrams—tend to reflect **internal system behavior**.
 
-To bridge this gap, we referred to the **acceptance criteria** of each user story to inform what states and actions should be represented. For instance:
-- US001 (logging a transaction) led directly to modeling states like `Draft`, `Submitted`, and `Logged`.
-- US008 (secure authentication) influenced both the **Authentication Session** state diagram and the **User Login** activity diagram.
+To bridge that gap, I closely examined the **acceptance criteria** for each user story and used that to inform what should appear in the diagrams. For instance:
+- US001, about logging a transaction, directly inspired states like `Draft`, `Submitted`, and `Logged`.
+- US008, focusing on secure authentication, influenced both the **User Login** activity diagram and the **Authentication Session** state diagram.
 
-This process required frequent **iteration and cross-referencing** between user stories, sprint tasks, and system behaviors to ensure consistency.
+This required frequent back-and-forth between the stories, requirements, and system logic to make sure everything was aligned.
 
 ---
 
@@ -24,19 +24,15 @@ This process required frequent **iteration and cross-referencing** between user 
 
 | Aspect | State Diagrams | Activity Diagrams |
 |--------|----------------|-------------------|
-| **Focus** | Object or system **behavior over time** | **Workflow and control flow** of processes |
-| **Best For** | Capturing **lifecycles** (e.g., transactions, accounts) | Modeling **step-by-step interactions** (e.g., user login, report generation) |
-| **Challenge** | Avoiding excessive states that reduce clarity | Keeping flows simple without oversimplifying logic |
-| **Example** | The **Transaction** state diagram models how a transaction moves through validation, logging, editing, or deletion. | The **Add Transaction** activity diagram shows user interaction, form submission, and system validation. |
+| **Focus** | How an object behaves over time | The flow of actions or decisions |
+| **Best For** | Modeling lifecycle events (like transactions) | Showing workflows and user interactions |
+| **Biggest Challenge** | Avoiding too many micro-states | Keeping flows simple but informative |
+| **Example** | The **Transaction** state diagram models stages like `Draft`, `Validated`, and `Deleted`. | The **Add Transaction** activity diagram outlines each user/system step from start to confirmation. |
 
-While both are powerful, each serves a different purpose:
-- **State diagrams** are better for **backend logic and lifecycle** management.
-- **Activity diagrams** help visualize **user flow and system tasks** in an intuitive way.
-
-Creating both types provided a **complementary perspective**, allowing us to design with both user experience and backend system behavior in mind.
+In my experience, **state diagrams** were better suited for representing the **backend lifecycle and system logic**, while **activity diagrams** worked well for illustrating **step-by-step user interactions**. Using both allowed me to get a full view of how the system functions—from what the user sees, to how the system responds.
 
 ---
 
 ## ✅ Conclusion
 
-Balancing diagram clarity, aligning them with Agile artifacts, and using both **state** and **activity diagrams** strategically helped us represent the system more holistically. Although challenging, this exercise improved our understanding of system dynamics and ensured stronger alignment between **design, development, and stakeholder needs**.
+Overall, this process helped me gain a much deeper understanding of the system I was designing. I had to think critically about how users interact with the app, how data flows, and how different components behave over time. Even though there were challenges in terms of diagram complexity and alignment with Agile methods, I found the exercise rewarding. It taught me how to represent technical details in a way that connects clearly back to both **stakeholder needs** and **functional goals**.
