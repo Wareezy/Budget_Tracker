@@ -35,4 +35,4 @@ A simple and intuitive budget tracking system that allows users to log income an
 
 # Domain Modeling and Class Diagram Development
 - [DOMAIN_MODEL_DOCUMENTATION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_9/DOMAIN_MODEL_DOCUMENTATION.md)
-- [REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_8/STATE_TRANSITION_DIAGRAMS.md)
+- [REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_9/REFLECTION.md)
