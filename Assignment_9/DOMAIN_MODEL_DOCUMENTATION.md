@@ -1,4 +1,4 @@
-# 📦 Domain Model – Minimalist Budget Tracker
+# 📦 Domain Model Documentation – Minimalist Budget Tracker
 
 ## 🧩 Entity Overview
 
