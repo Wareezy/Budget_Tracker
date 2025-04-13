@@ -1,4 +1,5 @@
 ## 🧩 Class Diagram – Minimalist Budget Tracker (Mermaid.js)
+
 <br>
 <br>
 
