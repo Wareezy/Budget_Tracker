@@ -119,6 +119,8 @@ classDiagram
     Notification "1" --> "0..1" Budget : triggered by
     Notification "1" --> "0..1" RecurringTransaction : triggered by
 
+```
+
 <br>
 <br>
 <br>
