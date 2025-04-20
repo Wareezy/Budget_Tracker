@@ -1,48 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1745175788795" clover="3.2.0">
-  <project timestamp="1745175788795" name="All files">
+<coverage generated="1745180272924" clover="3.2.0">
+  <project timestamp="1745180272924" name="All files">
     <metrics statements="54" coveredstatements="49" conditionals="14" coveredconditionals="11" methods="25" coveredmethods="19" elements="93" coveredelements="79" complexity="0" loc="54" ncloc="54" packages="6" files="6" classes="6"/>
-    <package name="budget-prototype">
-      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
-      <file name="budget-prototype.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\budget-prototype\budget-prototype.js">
-        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="db-singleton">
-      <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
-      <file name="db-singleton.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\db-singleton\db-singleton.js">
-        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
-        <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="notification-factory-method">
-      <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="2"/>
-      <file name="notification-factory-method.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\notification-factory-method\notification-factory-method.js">
-        <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="2"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="23" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="theme-abstract-factory">
+    <package name="abstract-factory">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
-      <file name="theme-abstract-factory.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\theme-abstract-factory\theme-abstract-factory.js">
+      <file name="theme-abstract-factory.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\abstract-factory\theme-abstract-factory.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
         <line num="8" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
@@ -50,25 +12,9 @@
         <line num="31" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="transaction-factory">
-      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-      <file name="transaction-factory.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\transaction-factory\transaction-factory.js">
-        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="15" count="2" type="cond" truecount="4" falsecount="0"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="user-builder">
+    <package name="builder">
       <metrics statements="20" coveredstatements="18" conditionals="4" coveredconditionals="2" methods="6" coveredmethods="5"/>
-      <file name="user-builder.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\user-builder\user-builder.js">
+      <file name="user-builder.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\builder\user-builder.js">
         <metrics statements="20" coveredstatements="18" conditionals="4" coveredconditionals="2" methods="6" coveredmethods="5"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
@@ -90,6 +36,60 @@
         <line num="34" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
         <line num="39" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="factory-method">
+      <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="2"/>
+      <file name="notification-factory-method.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\factory-method\notification-factory-method.js">
+        <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="2"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="prototype">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="budget-prototype.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\prototype\budget-prototype.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="simple-factory">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="transaction-factory.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\simple-factory\transaction-factory.js">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="15" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="singleton">
+      <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
+      <file name="db-singleton.js" path="C:\Users\user-pc\Documents\GitHub\Budget_Tracker\Assignment_10\creational_patterns\singleton\db-singleton.js">
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
       </file>
     </package>
   </project>

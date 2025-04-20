@@ -1,4 +1,4 @@
-import { DatabaseConnection } from "../creational_patterns/db-singleton/db-singleton.js";
+import { DatabaseConnection } from "../creational_patterns/singleton/db-singleton.js";
 
 test("returns same instance", () => {
   const a = new DatabaseConnection();

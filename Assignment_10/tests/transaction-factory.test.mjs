@@ -1,4 +1,4 @@
-import { TransactionFactory } from "../creational_patterns/transaction-factory/transaction-factory.js";
+import { TransactionFactory } from "../creational_patterns/simple-factory/transaction-factory.js";
 
 test("creates an income transaction", () => {
   const tx = TransactionFactory.createTransaction("income", 1, 1000, "Salary", "cat123");

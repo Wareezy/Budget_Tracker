@@ -1,4 +1,4 @@
-import { DarkThemeFactory, LightThemeFactory } from "../creational_patterns/theme-abstract-factory/theme-abstract-factory.js";
+import { DarkThemeFactory, LightThemeFactory } from "../creational_patterns/abstract-factory/theme-abstract-factory.js";
 
 test("creates dark theme", () => {
   const theme = new DarkThemeFactory().createTheme();
