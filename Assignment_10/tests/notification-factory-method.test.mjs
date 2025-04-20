@@ -1,4 +1,4 @@
-import { NotificationFactory } from "../creational_patterns/notification-factory-method/notification-factory-method.js";
+import { NotificationFactory } from "../creational_patterns/factory-method/notification-factory-method.js";
 
 test("sends email notification", () => {
   const sender = NotificationFactory.getSender("email");

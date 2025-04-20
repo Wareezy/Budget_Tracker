@@ -1,4 +1,4 @@
-import { UserBuilder } from "../creational_patterns/user-builder/user-builder.js";
+import { UserBuilder } from "../creational_patterns/builder/user-builder.js";
 
 test("builds a user with optional fields", () => {
   const user = new UserBuilder("u1", "test@example.com", "hash123")
