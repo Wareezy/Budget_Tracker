@@ -38,5 +38,5 @@ A simple and intuitive budget tracking system that allows users to log income an
 - [REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_9/REFLECTION.md)
 
 # Creational Patterns and Unit Tests
-- [JUSTIFICATION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_10/creational_patterns/Justification.md)
+- [CREATIONAL_PATTERNS_JUSTIFICATION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_10/creational_patterns/Justification.md)
 - [REFLECTION](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_9/REFLECTION.md)
