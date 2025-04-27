@@ -1,4 +1,4 @@
-# Repository Layer Design
+# justification for the Repository Layer Design
 
 ## Purpose
 The `/repositories` directory defines abstract repository interfaces for persisting domain entities in the Budget Tracker application.
@@ -14,5 +14,3 @@ The `/repositories` directory defines abstract repository interfaces for persist
 
 - **Flexibility:**  
   Different implementations of the repositories can be provided later (e.g., `InMemoryBudgetRepository`, `MySQLBudgetRepository`, `APIBudgetRepository`) depending on the storage backend.
-
-## Folder Structure
