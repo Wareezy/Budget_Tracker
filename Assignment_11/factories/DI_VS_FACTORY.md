@@ -1,4 +1,9 @@
-# Repository Factory
+# DI VS FACTORY REASONING
+
+<br>
+<br>
+
+## Repository Factory
 
 ## Purpose
 This directory contains the `RepositoryFactory`, responsible for decoupling services from specific storage backends.
