@@ -44,6 +44,6 @@ A simple and intuitive budget tracking system that allows users to log income an
 
 
 #  Implementing a Persistence Repository Layer
-- [JUSTIFY](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_10/src/Class_Implementation.md)
+- [JUSTIFICATION OF INTERFACES](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_10/src/Class_Implementation.md)
 - [DI VS FACTORY](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_10/creational_patterns/Justification.md)
 - [UPDATE_CLASS_DIAGRAM](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_10/tests/Coverage_Report.md)
