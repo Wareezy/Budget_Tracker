@@ -1,6 +1,6 @@
 import request from "supertest";
 import express from "express";
-import categoryRoutes from "../../category-routes";
+import categoryRoutes from "../../api/category-routes";
 
 // Setup Express app with category routes
 const app = express();

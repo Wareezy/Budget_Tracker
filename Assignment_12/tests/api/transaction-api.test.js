@@ -1,6 +1,6 @@
 import request from "supertest";
 import express from "express";
-import transactionRoutes from "../../transaction-routes";
+import transactionRoutes from "../../api/transaction-routes";
 
 // Setup Express app with transaction routes
 const app = express();

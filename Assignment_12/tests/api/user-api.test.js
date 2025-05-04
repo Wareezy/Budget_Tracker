@@ -1,6 +1,6 @@
 import request from "supertest";
 import express from "express";
-import userRoutes from "../../user-routes";
+import userRoutes from "../../api/user-routes";
 
 // Mock app setup
 const app = express();
