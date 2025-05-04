@@ -1,5 +1,5 @@
-import { CategoryService } from "../services/category-service.js";
-import { InMemoryCategoryRepository } from "../../repositories/inmemory/inmemory-category-repository.js";
+import { CategoryService } from "../../services/category-service.js";
+import { InMemoryCategoryRepository } from "../../../Assignment_11/repositories/inmemory/inmemory-category-repository.js";
 
 describe("CategoryService", () => {
     let categoryService;

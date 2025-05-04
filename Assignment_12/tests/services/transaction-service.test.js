@@ -1,5 +1,5 @@
-import { TransactionService } from "../services/transaction-service.js";
-import { InMemoryTransactionRepository } from "../../repositories/inmemory/inmemory-transaction-repository.js";
+import { TransactionService } from "../../services/transaction-service.js";
+import { InMemoryTransactionRepository } from "../../../Assignment_11/repositories/inmemory/inmemory-transaction-repository.js";
 
 describe("TransactionService", () => {
   let transactionService;

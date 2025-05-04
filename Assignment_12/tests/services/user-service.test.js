@@ -1,5 +1,5 @@
-import { UserService } from "../services/user-service.js";
-import { InMemoryUserRepository } from "../../repositories/inmemory/inmemory-user-repository.js";
+import { UserService } from "../../services/user-service.js";
+import { InMemoryUserRepository } from "../../../Assignment_11/repositories/inmemory/inmemory-user-repository.js";
 
 describe("UserService", () => {
   let userService;
