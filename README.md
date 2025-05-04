@@ -49,5 +49,5 @@ A simple and intuitive budget tracking system that allows users to log income an
 
 
 #  Implementing a Persistence Repository Layer
-- [CHANGELOG](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_11/repositories/JUSTIFICATION.md)
+- [CHANGELOG](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_12/CHANGELOG.md)
 - [SWAGGER UI API SCREENSHOT](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_11/factories/DI_VS_FACTORY.md)
