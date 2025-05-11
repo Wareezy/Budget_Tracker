@@ -64,6 +64,7 @@ npm install
 
 # Run tests
 npm test
+```
 
 ## 🚀 CI/CD Pipeline Overview
 
