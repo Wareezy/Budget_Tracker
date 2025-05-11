@@ -104,3 +104,10 @@ Generates a clean release package of the backend code for download, backup, or f
 # WHEN THE PR FAILS BECAUSE OF THE RULES THAT HAS BEEN SET IN PLACE THIS IS HOW IT LOOKS:
 ![failed-pr](https://github.com/user-attachments/assets/58aa5ed5-0c5f-444e-ab4f-35d21f6d89fc)
 
+
+# necessary artifacts:
+- [BRANCH_PROTECTION_RULES](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_12/CHANGELOG.md)
+- [PROTECTION.md](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_12/docs/swagger-Screenshot.md)
+- [CI-PIPELIKE-TEST-AUTOMATION RESULT 1](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_12/CHANGELOG.md)
+- [CI-PIPELIKE-TEST-AUTOMATION RESULT 2](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_12/docs/swagger-Screenshot.md)
+- [GENERATED_RELEASED_ARIFACT](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_12/CHANGELOG.md)
