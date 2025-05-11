@@ -53,4 +53,35 @@ A simple and intuitive budget tracking system that allows users to log income an
 - [SWAGGER UI API SCREENSHOT](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_12/docs/swagger-Screenshot.md)
 
 
-# Implementing CI/CD with GitHub Action
+# Implementing CI/CD with GitHub Actions
+🧪 Running Tests Locally
+To run all unit and integration tests on your machine:
+
+bash
+Copy
+Edit
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+Ensure you have Node.js v18 or higher installed. The tests are written using Jest and cover both service-level and API-level functionality.
+
+🚀 CI/CD Pipeline Overview
+This project uses GitHub Actions for CI/CD. Here's how it works:
+
+✅ CI (Continuous Integration)
+Runs on every push to any branch and every pull request to main.
+
+Automatically sets up Node.js, installs dependencies, and runs all tests (npm test).
+
+Fails the workflow if any test fails, blocking broken code from merging.
+
+📦 CD (Continuous Delivery)
+On every push or merge to the main branch:
+
+Archives the full project (excluding node_modules, .git, etc.)
+
+Uploads a .zip release artifact to GitHub Actions for download
+
+This artifact is useful for sharing, deployment, or backup
