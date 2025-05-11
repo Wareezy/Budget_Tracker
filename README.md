@@ -53,4 +53,4 @@ A simple and intuitive budget tracking system that allows users to log income an
 - [SWAGGER UI API SCREENSHOT](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_12/docs/swagger-Screenshot.md)
 
 
-# Implementing CI/CD with GitHub Actions
+# Implementing CI/CD with GitHub Action
