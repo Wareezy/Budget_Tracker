@@ -109,5 +109,5 @@ Generates a clean release package of the backend code for download, backup, or f
 - [BRANCH_PROTECTION_RULES](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_13/BRANCH_PROTECTION_RULES/BRANCH-PROTECTION-RULES.PNG)
 - [PROTECTION.md](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_13/BRANCH_PROTECTION_RULES/PROTECTION.md)
 - [CI-PIPELIKE-TEST-AUTOMATION RESULT 1](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_13/CI_PIPELINE_TEST_AUTOMATION/CI-Pipeline-%20Test-%20Automation-test-results.PNG)
-- [CI-PIPELIKE-TEST-AUTOMATION RESULT 2](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_12/docs/swagger-Screenshot.md)
+- [CI-PIPELIKE-TEST-AUTOMATION RESULT 2](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_13/CI_PIPELINE_TEST_AUTOMATION/CI-Pipeline-Test-Automation-test-results-2.PNG)
 - [GENERATED_RELEASED_ARIFACT](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_12/CHANGELOG.md)
