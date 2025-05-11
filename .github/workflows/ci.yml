@@ -1,3 +1,4 @@
+# .github/workflows/ci.yml
 name: CI Pipeline
 
 on:
@@ -25,8 +26,8 @@ jobs:
       - name: Run unit and integration tests
         run: npm test
 
-  deploy:
-    name: Deploy to GitHub Pages
+  release:
+    name: Upload Release Artifact
     needs: test
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
@@ -42,8 +43,16 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Archive project files
+        run: |
+          mkdir release
+          cp -r src package.json README.md release/
+          cd release
+          zip -r ../budget-tracker.zip .
+          cd ..
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          name: budget-tracker-release
+          path: budget-tracker.zip
