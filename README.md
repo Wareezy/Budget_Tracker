@@ -54,34 +54,47 @@ A simple and intuitive budget tracking system that allows users to log income an
 
 
 # Implementing CI/CD with GitHub Actions
-🧪 Running Tests Locally
-To run all unit and integration tests on your machine:
+## 🧪 Running Tests Locally
 
-bash
-Copy
-Edit
+To run all unit and integration tests on your local machine:
+
+```bash
 # Install dependencies
 npm install
 
 # Run tests
 npm test
-Ensure you have Node.js v18 or higher installed. The tests are written using Jest and cover both service-level and API-level functionality.
 
-🚀 CI/CD Pipeline Overview
-This project uses GitHub Actions for CI/CD. Here's how it works:
+## 🚀 CI/CD Pipeline Overview
 
-✅ CI (Continuous Integration)
-Runs on every push to any branch and every pull request to main.
+This project uses **GitHub Actions** to automate Continuous Integration (CI) and Continuous Delivery (CD):
 
-Automatically sets up Node.js, installs dependencies, and runs all tests (npm test).
+---
 
-Fails the workflow if any test fails, blocking broken code from merging.
+### ✅ CI (Continuous Integration)
 
-📦 CD (Continuous Delivery)
-On every push or merge to the main branch:
+**Triggers on:**
+- Every push to any branch  
+- Every pull request to `main`
 
-Archives the full project (excluding node_modules, .git, etc.)
+**Steps performed:**
+- Sets up Node.js 18  
+- Installs dependencies  
+- Runs all unit and integration tests (`npm test`)
 
-Uploads a .zip release artifact to GitHub Actions for download
+**Purpose:**  
+Ensures all code changes are tested before being merged into the `main` branch.
 
-This artifact is useful for sharing, deployment, or backup
+---
+
+### 📦 CD (Continuous Delivery)
+
+**Triggers on:**
+- Push or merge into the `main` branch
+
+**Steps performed:**
+- Archives the entire project (excluding `node_modules`, `.git`, and coverage files)  
+- Uploads the archive (`budget-tracker.zip`) as a downloadable artifact in GitHub Actions
+
+**Purpose:**  
+Generates a clean release package of the backend code for download, backup, or further deployment.
