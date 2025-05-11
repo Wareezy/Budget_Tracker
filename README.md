@@ -99,3 +99,8 @@ Ensures all code changes are tested before being merged into the `main` branch.
 
 **Purpose:**  
 Generates a clean release package of the backend code for download, backup, or further deployment.
+
+
+# WHEN THE PR FAILS BECAUSE OF THE RULES THAT HAS BEEN SET IN PLACE THIS IS HOW IT LOOKS:
+![failed-pr](https://github.com/user-attachments/assets/58aa5ed5-0c5f-444e-ab4f-35d21f6d89fc)
+
