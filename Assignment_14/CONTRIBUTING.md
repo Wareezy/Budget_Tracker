@@ -25,3 +25,10 @@ npm install
 npm test
 ```
 
+✨ Coding Standards
+✅ Linting
+Please follow consistent and clean JavaScript practices. Use tools like ESLint or Prettier if available.
+
+bash
+Copy
+Edit
