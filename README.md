@@ -111,3 +111,42 @@ Generates a clean release package of the backend code for download, backup, or f
 - [CI-PIPELIKE-TEST-AUTOMATION RESULT 1](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_13/CI_PIPELINE_TEST_AUTOMATION/CI-Pipeline-%20Test-%20Automation-test-results.PNG)
 - [CI-PIPELIKE-TEST-AUTOMATION RESULT 2](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_13/CI_PIPELINE_TEST_AUTOMATION/CI-Pipeline-Test-Automation-test-results-2.PNG)
 - [GENERATED_RELEASED_ARIFACT](https://github.com/Wareezy/Budget_Tracker/blob/main/Assignment_13/ARTIFACT_GENERATION/GENERATED_RELEASED_ARTFACT.PNG)
+
+<br>
+<br>
+
+# 🚀 Getting Started
+
+Follow these steps to set up and run the project locally:
+
+### 📦 Prerequisites
+- [Node.js v18+](https://nodejs.org/)
+- npm (comes with Node.js)
+- Git
+
+### 🛠️ Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Wareezy/Budget_Tracker.git
+cd Budget_Tracker
+
+# 2. Install dependencies
+npm install
+
+# 3. Run tests to verify setup
+npm test
+
+### 🧩 Features Available for Contribution
+# Below is a list of current and upcoming features that contributors can help with. Issues are tagged to help you find beginner-friendly or enhancement work.
+
+| Feature                                             | Tag                | Description                                              |
+| --------------------------------------------------- | ------------------ | -------------------------------------------------------- |
+| Unit tests for transaction APIs and balance updates | `good-first-issue` | Add test coverage for transactions and balance logic     |
+| Implement transaction category selection            | `good-first-issue` | Enable users to assign custom/predefined categories      |
+| Modular & Well-Documented Codebase                  | `good-first-issue` | Improve code modularity and documentation clarity        |
+| Secure User Authentication (login/logout)           | `good-first-issue` | Implement basic login/logout logic                       |
+| AES-256 Encryption for sensitive fields             | `feature-request`  | Secure sensitive data such as user emails/passwords      |
+| Integrate Redis caching                             | `feature-request`  | Cache frequently accessed data (e.g., balance summaries) |
+| PDF/CSV Report Export                               | `feature-request`  | Allow users to download transaction or budget reports    |
+| Real-Time Balance Calculation                       | `feature-request`  | Display live balance changes after each transaction      |
