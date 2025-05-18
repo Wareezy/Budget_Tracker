@@ -70,7 +70,7 @@ git push origin feature/my-new-feature
 
 # Open a PR on GitHub
 
-``
+```
 
 <br>
 <br>
