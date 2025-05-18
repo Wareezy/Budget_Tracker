@@ -56,3 +56,17 @@ All pull requests must pass tests before being merged.
 4. Write code and tests.  
 5. Submit a PR with a clear and descriptive title.
 
+```bash
+# Fork and clone the repo
+git clone https://github.com/your-username/budget-tracker.git
+
+# Create a feature branch
+git checkout -b feature/my-new-feature
+
+# Make changes, commit, and push
+git add .
+git commit -m "Add: my new feature"
+git push origin feature/my-new-feature
+
+# Open a PR on GitHub
+``
