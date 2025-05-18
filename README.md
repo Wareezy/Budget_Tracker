@@ -143,6 +143,9 @@ npm test
 <br>
 
 # 🧩 Features Available for Contribution
+
+## labeled issues
+<br>
 ### Below is a list of current and upcoming features that contributors can help with. Issues are tagged to help you find beginner-friendly or enhancement work.
 
 | Feature                                             | Tag                | Description                                              |
