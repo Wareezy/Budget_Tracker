@@ -47,7 +47,6 @@ All pull requests must pass tests before being merged.
 
 <br>
 <br>
-<br>
 
 ## 🚀 How to Contribute
 
