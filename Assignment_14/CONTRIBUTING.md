@@ -70,3 +70,9 @@ git push origin feature/my-new-feature
 
 # Open a PR on GitHub
 ``
+
+<br>
+<br>
+
+## 🙏 Thank You
+# We appreciate your contributions and support in improving this project!
