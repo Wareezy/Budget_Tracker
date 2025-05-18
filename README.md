@@ -137,6 +137,11 @@ npm install
 # 3. Run tests to verify setup
 npm test
 
+```
+
+<br>
+<br>
+
 ### 🧩 Features Available for Contribution
 # Below is a list of current and upcoming features that contributors can help with. Issues are tagged to help you find beginner-friendly or enhancement work.
 
